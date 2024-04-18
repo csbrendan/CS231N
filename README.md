@@ -1,2 +1,1 @@
-# CS231N
-Deep Learning for Computer Vision
+# CS231N  Deep Learning for Computer Vision
