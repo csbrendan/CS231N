@@ -5,13 +5,13 @@ import os
 from datasets import load_dataset
 from nltk.tokenize import word_tokenize
 from nltk.translate.bleu_score import sentence_bleu
-
 import json
 import csv
 import re
 
 DEVICE = "cuda:0"
 
+# Set the environment variables
 os.environ['HF_HOME'] = "/home/bpm_azure_cs231n_key/huggingface_cache"
 os.environ['TRANSFORMERS_CACHE'] = "/home/bpm_azure_cs231n_key/huggingface_cache"
 os.environ["HF_TOKEN"] = "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"
@@ -22,21 +22,21 @@ processor = AutoProcessor.from_pretrained(
     do_image_splitting=False
 )
 
-# load my FT model
+# Load the fine-tuned model
 model = Idefics2ForConditionalGeneration.from_pretrained(
-    "idefics2-8B-finetuned",
+    "idefics2-8B-finetuned-stage2",
     torch_dtype=torch.float16,
 ).to(DEVICE)
 
 dataset = load_dataset("flaviagiammarino/vqa-rad")
-eval_dataset = dataset["test"].select(range(100))  # select first n samples for eval
+eval_dataset = dataset["test"].select(range(100))  # Select the first 20 samples for evaluation
 
 def check_inference(model, processor, image, question, max_new_tokens=20):
     messages = [
         {
             "role": "user",
             "content": [
-                {"type": "text", "text": "answer briefly."},
+                {"type": "text", "text": "Answer briefly."},
                 {"type": "image"},
                 {"type": "text", "text": question}
             ]
@@ -48,6 +48,7 @@ def check_inference(model, processor, image, question, max_new_tokens=20):
     generated_texts = processor.batch_decode(generated_ids[:, inputs["input_ids"].size(1):], skip_special_tokens=True)
     return generated_texts[0]
 
+# Function from the provided code
 def check_accuracy(model, processor, dataset, num_samples=20):
     exact_match_correct = 0
     f1_scores = []
@@ -61,11 +62,11 @@ def check_accuracy(model, processor, dataset, num_samples=20):
         true_answer = example['answer'].lower()
         predicted_answer = check_inference(model, processor, image, question, max_new_tokens=20).lower()
 
-        # exact match
+        # Exact Match Accuracy
         if true_answer in predicted_answer:
             exact_match_correct += 1
 
-        # extract relevant answer portion from the predicted answer, for cases where model answers with subsequent follow up questions
+        # Extract the relevant answer portion from the predicted answer
         answer_start = predicted_answer.find("answer:")
         if answer_start != -1:
             answer_end = predicted_answer.find("question:", answer_start)
@@ -73,10 +74,10 @@ def check_accuracy(model, processor, dataset, num_samples=20):
                 answer_end = len(predicted_answer)
             predicted_answer = predicted_answer[answer_start + len("answer:"):answer_end].strip()
 
-        # remove any "assistant:" text from predicted answer
+        # Remove any "assistant:" text from the predicted answer
         predicted_answer = predicted_answer.replace("assistant:", "").strip()
 
-        # token based F1 score
+        # Token-based F1 Score
         true_tokens = word_tokenize(true_answer)
         pred_tokens = word_tokenize(predicted_answer)
         common_tokens = set(true_tokens) & set(pred_tokens)
@@ -85,7 +86,7 @@ def check_accuracy(model, processor, dataset, num_samples=20):
         f1_score = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
         f1_scores.append(f1_score)
 
-        # BLEU score
+        # BLEU Score
         bleu_score = sentence_bleu([true_tokens], pred_tokens, weights=(1, 0, 0, 0))
         bleu_scores.append(bleu_score)
 
@@ -118,8 +119,11 @@ def check_accuracy(model, processor, dataset, num_samples=20):
     return results
 
 
+
+
+# Measure baseline performance
 results = check_accuracy(model, processor, eval_dataset, num_samples=100)
 
-# save to to JSON 
-with open('eval_results_idefics2.json', 'w') as json_file:
+# Save results to JSON file
+with open('eval_stage2_results.json', 'w') as json_file:
     json.dump(results, json_file, indent=4)
