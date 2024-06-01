@@ -17,6 +17,7 @@ os.environ['TRANSFORMERS_CACHE'] = "/home/bpm_azure_cs231n_key/huggingface_cache
 os.environ["HF_TOKEN"] = "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"
 hf_token = os.environ.get('HF_TOKEN')
 
+# Load the processor for idefics2
 processor = AutoProcessor.from_pretrained(
     "HuggingFaceM4/idefics2-8b",
     do_image_splitting=False
@@ -24,9 +25,8 @@ processor = AutoProcessor.from_pretrained(
 
 # Load the fine-tuned model
 model = Idefics2ForConditionalGeneration.from_pretrained(
-    #"idefics2-8B-finetuned-stage2",
-    #"optimized-idefics2-8B-finetuned-stage2",
-    "idefics2-8B-finetuned-stage2-full-train",
+    #"idefics2-8B-pretrained",
+    "idefics2-8B-finetuned-base-only",
     torch_dtype=torch.float16,
 ).to(DEVICE)
 
@@ -50,7 +50,7 @@ def check_inference(model, processor, image, question, max_new_tokens=20):
     generated_texts = processor.batch_decode(generated_ids[:, inputs["input_ids"].size(1):], skip_special_tokens=True)
     return generated_texts[0]
 
-# Function from the provided code
+
 def check_accuracy(model, processor, dataset, num_samples=20):
     exact_match_correct = 0
     f1_scores = []
@@ -121,12 +121,9 @@ def check_accuracy(model, processor, dataset, num_samples=20):
     return results
 
 
-
-
 # Measure baseline performance
 results = check_accuracy(model, processor, eval_dataset, num_samples=400)
 
 # Save results to JSON file
-#with open('eval_stage2_results.json', 'w') as json_file:
-with open('eval_full_stage2_results.json', 'w') as json_file:
+with open('eval_ft_base_only_results.json', 'w') as json_file:
     json.dump(results, json_file, indent=4)

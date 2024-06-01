@@ -42,90 +42,9 @@ model = Idefics2ForConditionalGeneration.from_pretrained(
 model.add_adapter(lora_config)
 model.enable_adapters()
 
-# Load the MedIR/roco dataset for SSL pre-training
-dataset = load_dataset("MedIR/roco")
-
-total_examples = len(dataset["test"])
-eval_start_index = total_examples - 1000
-
-train_dataset = dataset["test"].select(range(7000)) #1500
-eval_dataset = dataset["test"].select(range(eval_start_index, total_examples))
-
-# DataCollator
-class MyDataCollator:
-    def __init__(self, processor):
-        self.processor = processor
-        self.image_token_id = processor.tokenizer.additional_special_tokens_ids[
-            processor.tokenizer.additional_special_tokens.index("<image>")
-        ]
-
-    def __call__(self, examples):
-        texts = []
-        images = []
-        for example in examples:
-            image = example["image"]
-            caption = example["caption"]
-            messages = [
-                {
-                    "role": "user",
-                    "content": [
-                        {"type": "image"},
-                        {"type": "text", "text": caption}
-                    ]
-                }
-            ]
-            text = processor.apply_chat_template(messages, add_generation_prompt=False)
-            texts.append(text.strip())
-            images.append([image])
-
-        batch = processor(text=texts, images=images, return_tensors="pt", padding=True)
-
-        labels = batch["input_ids"].clone()
-        labels[labels == processor.tokenizer.pad_token_id] = self.image_token_id
-        batch["labels"] = labels
-
-        return batch
-
-
-# Collate examples for SSL pretraining 
-data_collator = MyDataCollator(processor)
-
-output_dir = "/home/bpm_azure_cs231n_key/idefics_pretrain_outputs"
-os.makedirs(output_dir, exist_ok=True)
-
-training_args = TrainingArguments(
-    num_train_epochs=3, #more epochs for SSL, 2 for ft
-    per_device_train_batch_size=2,
-    per_device_eval_batch_size=8,
-    gradient_accumulation_steps=8,
-    warmup_steps=50,
-    learning_rate = 1e-5, #lower learning rate for SSL, 1e-4 for ft
-    weight_decay=0.01,
-    logging_steps=25,
-    output_dir = "/home/bpm_azure_cs231n_key/idefics_pretrain_outputs",
-    save_strategy = "steps",
-    save_steps = 25,
-    save_total_limit = 1,
-    fp16 = True,
-    remove_unused_columns=False,
-    report_to="none"
-)
-trainer = Trainer(
-    model = model,
-    args = training_args,
-    data_collator = data_collator,
-    train_dataset = train_dataset,
-    eval_dataset=eval_dataset
-)
-
-trainer.train()
-
-# Save the SSL pretrained model
-model.save_pretrained("idefics2-8B-pretrained-full-train")
-
-# Load the VQA-RAD dataset for stage 2 FT
+# Load VQA for FT only no SSL
 dataset = load_dataset("flaviagiammarino/vqa-rad")
-train_dataset = dataset["train"] #.select(range(1000)) # was 1000, testing stage 2 FT on 100, will use 80/20 or so for final
+train_dataset = dataset["train"] #.select(range(100)) # do 1700 train, 400 test,
 eval_dataset = dataset["test"] #.select(range(200))
 
 # DataCollator
@@ -147,7 +66,7 @@ class MyDataCollator2:
                 {
                     "role": "user",
                     "content": [
-                        {"type": "text", "text": "Answer briefly."},
+                        {"type": "text", "text": "You are an expert radiologist, briefly answer the question based on the image."},
                         {"type": "image"},
                         {"type": "text", "text": question}
                     ]
@@ -174,11 +93,11 @@ class MyDataCollator2:
 # DataCollator
 data_collator2 = MyDataCollator2(processor)
 
-output_dir = "/home/bpm_azure_cs231n_key/idefics_finetune_outputs"
+output_dir = "/home/bpm_azure_cs231n_key/idefics_finetune_baseonly__outputs"
 os.makedirs(output_dir, exist_ok=True)
 
 training_args2 = TrainingArguments(
-    num_train_epochs=2,
+    num_train_epochs=3,
     per_device_train_batch_size=2,
     per_device_eval_batch_size=8,
     gradient_accumulation_steps=8,
@@ -186,7 +105,7 @@ training_args2 = TrainingArguments(
     learning_rate = 1e-4,
     weight_decay=0.01,
     logging_steps=25,
-    output_dir = "/home/bpm_azure_cs231n_key/idefics_finetune_outputs",
+    output_dir = "/home/bpm_azure_cs231n_key/idefics_finetune_baseonly_outputs",
     save_strategy = "steps",
     save_steps = 25,
     save_total_limit = 1,
@@ -205,7 +124,7 @@ trainer2 = Trainer(
 trainer2.train()
 
 # Save the stage 2 fine-tuned model
-model.save_pretrained("idefics2-8B-finetuned-stage2-full-train")
+model.save_pretrained("idefics2-8B-finetuned-base-only")
 
 ## EVAL
 example = eval_dataset[5]
