@@ -1,0 +1,3202 @@
+[
+    {
+        "question": "what are positively charged, thus allowing the compaction of the negatively charged dna?",
+        "true_answer": "the histone subunits",
+        "predicted_answer": "histones.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "how are the histone subunits charged?",
+        "true_answer": "positively charged",
+        "predicted_answer": "the histone subunits are charged.",
+        "exact_match": false,
+        "f1_score": 0.25,
+        "bleu_score": 0.16666666666666669
+    },
+    {
+        "question": "what is showing increased eosinophilia of cytoplasm, and swelling of occasional cells?",
+        "true_answer": "early (reversible) ischemic injury",
+        "predicted_answer": "answering does not require reading text in the image.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does mycobacterium avium infection in a duodenal biopsy from a patient with aids show massive intracellular macrophage infection with acid-fast organisms filamentous and pink in this acid-fast stain preparation?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what shows branching papillae having flbrovascular stalk covered by a single layer of cuboidal cells having ground-glass nuclei?",
+        "true_answer": "microscopy",
+        "predicted_answer": "branching papilla.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does microscopy show branching papillae having flbrovascular stalk covered by a single layer of cuboidal cells having ground-glass nuclei?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "does pbf show branching papillae having flbrovascular stalk covered by a single layer of cuboidal cells having ground-glass nuclei?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is involvedd in pathogenesis of two main types of diabetes mellitus?",
+        "true_answer": "chematic mechanisms",
+        "predicted_answer": "involved in pathogenesis of two main types of diabetes mellitus is autoimm",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is chematic mechanisms involved in?",
+        "true_answer": "pathogenesis of two main types of diabetes mellitus",
+        "predicted_answer": "chemical mechanisms involved in immunity are humoral immunity and cell mediated immunity.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is chematic mechanisms involved in pathogenesis of two main types of diabetes mellitus?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "are numbers in the illustrations involved in pathogenesis of two main types of diabetes mellitus?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what shows trabeculae with osteoclastic activity at the margins?",
+        "true_answer": "trabecular bone forming the marrow space",
+        "predicted_answer": "histology slide.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what does the trabecular bone forming the marrow space show at the margins?",
+        "true_answer": "trabeculae with osteoclastic activity",
+        "predicted_answer": "endosteum.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "where does the trabecular bone forming the marrow space show?",
+        "true_answer": "at the margins",
+        "predicted_answer": "in the medullary cavity.",
+        "exact_match": false,
+        "f1_score": 0.25,
+        "bleu_score": 0.2
+    },
+    {
+        "question": "are there inadequate t cells to mount a granulomatous response?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "how does the trabecular bone forming the marrow space show trabeculae?",
+        "true_answer": "with osteoclastic activity",
+        "predicted_answer": "the trabecular bone forming the marrow space shows trabeculae.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does the trabecular bone forming the marrow space show trabeculae with osteoclastic activity at the margins?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "does the upper dermis show trabeculae with osteoclastic activity at the margins?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what shows concentric lamellae along with osteocytic lacunae surrounding central blood vessels, while the trabecular bone forming the marrow space shows trabeculae with osteoclastic activity at the margins?",
+        "true_answer": "cortical bone forming the outer shell",
+        "predicted_answer": "histology of bone.",
+        "exact_match": false,
+        "f1_score": 0.2,
+        "bleu_score": 0.15163266492815836
+    },
+    {
+        "question": "what does the cortical bone forming the outer shell show?",
+        "true_answer": "concentric lamellae along with osteocytic lacunae surrounding central blood vessels",
+        "predicted_answer": "blood vessels.",
+        "exact_match": false,
+        "f1_score": 0.30769230769230765,
+        "bleu_score": 0.06464797857627003
+    },
+    {
+        "question": "does the cortical bone forming the outer shell show concentric lamellae along with osteocytic lacunae surrounding central blood vessels, while the trabecular bone forming the marrow space shows trabeculae with osteoclastic activity at the margins?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "does inbox show concentric lamellae along with osteocytic lacunae surrounding central blood vessels, while the trabecular bone forming the marrow space shows trabeculae with osteoclastic activity at the margins?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what begins as a focus of microabscess in a vascular loop in the marrow which expands to stimulate?",
+        "true_answer": "process",
+        "predicted_answer": "osteoclastic activity.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what does process begin as?",
+        "true_answer": "a focus of microabscess in a vascular loop in the marrow which expands to stimulate",
+        "predicted_answer": "infection.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does process begin as a focus of microabscess in a vascular loop in the marrow which expands to stimulate?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what is aids?",
+        "true_answer": "acquired immunodeficiency syndrome",
+        "predicted_answer": "acid fast bacillus.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does photomicrograph on right under higher magnification begin as a focus of microabscess in a vascular loop in the marrow which expands to stimulate?",
+        "true_answer": "no",
+        "predicted_answer": "no.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what is there of reactive woven bone formation by the periosteum?",
+        "true_answer": "beginning",
+        "predicted_answer": "there is more.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is there beginning of reactive woven bone formation by the periosteum?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "is the cyst wall beginning of reactive woven bone formation by the periosteum?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what expands further causing necrosis of the cortex called sequestrum?",
+        "true_answer": "abscess",
+        "predicted_answer": "gas.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what does the abscess expand?",
+        "true_answer": "further causing necrosis of the cortex called sequestrum",
+        "predicted_answer": "subcutaneous tissue.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does the abscess expand further causing necrosis of the cortex called sequestrum?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "do the alveolar walls expand further causing necrosis of the cortex called sequestrum?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is called involucrum?",
+        "true_answer": "formation of viable new reactive bone surrounding the sequestrum",
+        "predicted_answer": "the outer layer of the embryo.",
+        "exact_match": false,
+        "f1_score": 0.25,
+        "bleu_score": 0.21470779802151024
+    },
+    {
+        "question": "what is the formation of viable new reactive bone surrounding the sequestrum called?",
+        "true_answer": "involucrum",
+        "predicted_answer": "periosteal new bone formation.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is composed of fibrous plaques?",
+        "true_answer": "aorta with mild atherosclerosis",
+        "predicted_answer": "atherosclerotic lesion.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is the formation of viable new reactive bone surrounding the sequestrum called involucrum?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "is an asbestos body called involucrum?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what produces a draining sinus?",
+        "true_answer": "extension of infection into the joint space",
+        "predicted_answer": "an abscess.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what does the extension of infection into the joint space, epiphysis and the skin produce?",
+        "true_answer": "a draining sinus",
+        "predicted_answer": "septic arthritis.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does the extension of infection into the joint space, epiphysis and the skin produce a draining sinus?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "does part of the endocervical mucosa produce a draining sinus?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is expanded externally due to a gelatinous tumour?",
+        "true_answer": "bone",
+        "predicted_answer": "pancreas.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "why is the bone expanded?",
+        "true_answer": "due to a gelatinous tumour",
+        "predicted_answer": "the bone is expanded because it is a cast of a bone.",
+        "exact_match": false,
+        "f1_score": 0.1111111111111111,
+        "bleu_score": 0.07692307692307693
+    },
+    {
+        "question": "is the bone expanded externally due to a gelatinous tumour?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "is the basal layer expanded externally due to a gelatinous tumour?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is aorta with mild atherosclerosis composed of?",
+        "true_answer": "fibrous plaques",
+        "predicted_answer": "intima, media and adventitia.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what shows lobulated mass with bluish cartilaginous hue infiltrating the soft tissues?",
+        "true_answer": "sectioned surface",
+        "predicted_answer": "imaging.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "how does sectioned surface show lobulated mass?",
+        "true_answer": "with bluish cartilaginous hue infiltrating the soft tissues",
+        "predicted_answer": "lobulated.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does sectioned surface show lobulated mass with bluish cartilaginous hue infiltrating the soft tissues?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "does the amputated head of the long bone show lobulated mass with bluish cartilaginous hue infiltrating the soft tissues?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is expanded in the region of epiphysis?",
+        "true_answer": "end of the long bone",
+        "predicted_answer": "blood vessels.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is the end of the long bone expanded in?",
+        "true_answer": "region of epiphysis",
+        "predicted_answer": "the long bone expanded in all directions.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "where is the end of the long bone expanded?",
+        "true_answer": "in region of epiphysis",
+        "predicted_answer": "at the proximal end.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is the end of the long bone expanded in the region of epiphysis?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "is section from margin of amoebic ulcer expanded in the region of epiphysis?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what shows circumscribed, dark tan, haemorrhagic and necrotic tumour?",
+        "true_answer": "sectioned surface",
+        "predicted_answer": "imaging.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is the aorta with mild atherosclerosis composed of fibrous plaques?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "does sectioned surface show circumscribed, dark tan, haemorrhagic and necrotic tumour?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "does the sectioned surface of rectal wall show circumscribed, dark tan, haemorrhagic and necrotic tumour?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is expanded in the region of epiphysis?",
+        "true_answer": "end of the long bone",
+        "predicted_answer": "the epiphysis is expanded in all directions.",
+        "exact_match": false,
+        "f1_score": 0.15384615384615385,
+        "bleu_score": 0.12500000000000003
+    },
+    {
+        "question": "what is the end of the long bone expanded in?",
+        "true_answer": "region of epiphysis",
+        "predicted_answer": "the long bone is expanded in the epiphysis.",
+        "exact_match": false,
+        "f1_score": 0.16666666666666666,
+        "bleu_score": 0.11111111111111109
+    },
+    {
+        "question": "is the end of the long bone expanded in the region of epiphysis?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "is viral dna expanded in the region of epiphysis?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what shows circumscribed, dark tan, haemorrhagic and necrotic tumour?",
+        "true_answer": "sectioned surface",
+        "predicted_answer": "ct.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does sectioned surface show circumscribed, dark tan, haemorrhagic and necrotic tumour?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "does iron on absorption from upper small intestine show circumscribed, dark tan, haemorrhagic and necrotic tumour?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "are characteristic microscopic features irregular lobules of uniform small tumour cells with indistinct cytoplasmic outlines which are separated by fibrous tissue septa having rich vascularity?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what shows scattered inflammatory cells, calcification arrowheads, and neovascularization?",
+        "true_answer": "high-power view of the junction of the fibrous cap and core",
+        "predicted_answer": "h&e stain.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what are also included?",
+        "true_answer": "areas of necrosis and inflammatory infiltrate",
+        "predicted_answer": "haematuria, haemoptysis, and syncope.",
+        "exact_match": false,
+        "f1_score": 0.15384615384615383,
+        "bleu_score": 0.14285714285714285
+    },
+    {
+        "question": "are areas of necrosis and inflammatory infiltrate also included?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "are the lipofuscin pigment granules also included?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what shows pas positive tumour cells in perivascular location?",
+        "true_answer": "inbox in the right photomicrograph",
+        "predicted_answer": "h&e stain.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what does inbox in the right photomicrograph show?",
+        "true_answer": "pas positive tumour cells in perivascular location",
+        "predicted_answer": "inbox.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does inbox in the right photomicrograph show pas positive tumour cells in perivascular location?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "does the cytoplasm show pas positive tumour cells in perivascular location?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what shows a well-differentiated tumour composed of spindle-shaped cells forming interlacing fascicles producing a typical herring-bone pattern?",
+        "true_answer": "microscopy",
+        "predicted_answer": "h&e stain.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what does microscopy show?",
+        "true_answer": "microscopy",
+        "predicted_answer": "microscopy shows the tissue to be well-differentiated skeletal muscle fibers",
+        "exact_match": true,
+        "f1_score": 0.18181818181818182,
+        "bleu_score": 0.10000000000000002
+    },
+    {
+        "question": "does microscopy show a well-differentiated tumour composed of spindle-shaped cells forming interlacing fascicles producing a typical herring-bone pattern?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what did high-power view of the junction of the fibrous cap and core show?",
+        "true_answer": "scattered inflammatory cells",
+        "predicted_answer": "pauci-immune necrotizing vasculitis.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does the necrotic tissue show a well-differentiated tumour composed of spindle-shaped cells forming interlacing fascicles producing a typical herring-bone pattern?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what are also seen?",
+        "true_answer": "a few mitotic figures",
+        "predicted_answer": "blood vessels.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "are a few mitotic figures also seen?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what shows admixture of spindle-shaped pleomorphic cells forming storiform pattern and histiocyte-like round to oval cells?",
+        "true_answer": "tumour",
+        "predicted_answer": "h&e stain shows admixture of spindle-shaped pleomorphic cells forming storiform",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what does the tumour show?",
+        "true_answer": "admixture of spindle-shaped pleomorphic cells forming storiform pattern and histiocyte-like round to oval cells",
+        "predicted_answer": "the tumour shows areas of necrosis and cystic change.",
+        "exact_match": false,
+        "f1_score": 0.16666666666666666,
+        "bleu_score": 0.13406400920712788
+    },
+    {
+        "question": "does the tumour show admixture of spindle-shaped pleomorphic cells forming storiform pattern and histiocyte-like round to oval cells?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "does ziehl-neelsen show admixture of spindle-shaped pleomorphic cells forming storiform pattern and histiocyte-like round to oval cells?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is the nuclei of affected tubules soft, lobulated, yellowish and greasy?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what have features of both syncytial and fibroblastic type and form whorled appearance?",
+        "true_answer": "cells",
+        "predicted_answer": "blue cells.",
+        "exact_match": true,
+        "f1_score": 0.5,
+        "bleu_score": 0.3333333333333333
+    },
+    {
+        "question": "what do the cells have?",
+        "true_answer": "features of both syncytial and fibroblastic type and form whorled appearance",
+        "predicted_answer": "nuclei.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "did the high-power view of the junction of the fibrous cap and core show scattered inflammatory cells, calcification arrowheads, and neovascularization?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "do the cells have features of both syncytial and fibroblastic type and form whorled appearance?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "do the tips of dermal papillae have features of both syncytial and fibroblastic type and form whorled appearance?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what contain psammoma bodies?",
+        "true_answer": "some of the whorls",
+        "predicted_answer": "psammoma bodies in renal cortical tubules.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what do some of the whorls contain?",
+        "true_answer": "psammoma bodies",
+        "predicted_answer": "blue.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "do some of the whorls contain psammoma bodies?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "do a gaucher cell in bone marrow contain psammoma bodies?",
+        "true_answer": "no",
+        "predicted_answer": "no.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what shows a separate encapsulated gelatinous mass?",
+        "true_answer": "lower part of the image",
+        "predicted_answer": "plate 2.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what does lower part of the image show?",
+        "true_answer": "a separate encapsulated gelatinous mass",
+        "predicted_answer": "amount of cream used in comparison to the upper part of the image.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does lower part of the image show a separate encapsulated gelatinous mass?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "does hurthle show a separate encapsulated gelatinous mass?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "did the cause of reversible injury show scattered inflammatory cells, calcification arrowheads, and neovascularization?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is multilobulated with increased fat while lower part of the image shows a separate encapsulated gelatinous mass?",
+        "true_answer": "main mass",
+        "predicted_answer": "meat.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is the main mass multilobulated with?",
+        "true_answer": "increased fat while lower part of the image shows a separate encapsulated gelatinous mass",
+        "predicted_answer": "fibrous.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is the main mass multilobulated with increased fat while lower part of the image shows a separate encapsulated gelatinous mass?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "is pidural haematoma multilobulated with increased fat while lower part of the image shows a separate encapsulated gelatinous mass?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what shows circumscribed?",
+        "true_answer": "cut surface of both the masses",
+        "predicted_answer": "blue.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does the masses show circumscribed?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "do collections of histiocytes show circumscribed?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does this image show opened abdomen in situ excellent example inflamed gut and yellow-green pus?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "peritoneum",
+        "predicted_answer": "the liver is congested and nodular.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is peritoneum present?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what does ischemic injury show?",
+        "true_answer": "surface blebs",
+        "predicted_answer": "fat emboli.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is part of the vessel uninvolved?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "is subdiaphragmatic abscess present?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "acute peritonitis",
+        "predicted_answer": "the liver is congested and nodular.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is acute peritonitis present?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "where is this area in the body?",
+        "true_answer": "abdomen",
+        "predicted_answer": "abdomen.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "peritoneum",
+        "predicted_answer": "the liver is congested and nodular.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "acute peritonitis",
+        "predicted_answer": "the liver is congested and nodular.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does this image show opened abdomen with large lesions typical?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "does omphalocele show opened abdomen with large lesions typical?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "peritoneum",
+        "predicted_answer": "the liver is congested with ascites.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is peritoneum present?",
+        "true_answer": "yes",
+        "predicted_answer": "no.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is mycobacterium avium infection in a duodenal biopsy from a patient with aids uninvolved?",
+        "true_answer": "no",
+        "predicted_answer": "uninvolved.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is omphalocele present?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "carcinomatosis",
+        "predicted_answer": "the liver is congested with ascites.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is carcinomatosis present?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "is peritoneum present?",
+        "true_answer": "no",
+        "predicted_answer": "no.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "where is this area in the body?",
+        "true_answer": "abdomen",
+        "predicted_answer": "abdomen.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "peritoneum",
+        "predicted_answer": "the liver is congested with ascites.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "carcinomatosis",
+        "predicted_answer": "the liver is congested with ascites.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does this image show opened peritoneal cavity showing cecum and appendix on left side?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "does omphalocele show opened peritoneal cavity showing cecum and appendix on left side?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "abdomen",
+        "predicted_answer": "the small intestine, the cecum, the appendix, the ascites, and",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what demonstrate sheets of plump, proliferating spindle cells and slitlike vascular spaces?",
+        "true_answer": "histologic view of the nodular stage",
+        "predicted_answer": "this is the histologic picture of a fibrous tissue.",
+        "exact_match": false,
+        "f1_score": 0.37499999999999994,
+        "bleu_score": 0.3
+    },
+    {
+        "question": "is abdomen present?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "is tuberculous peritonitis present?",
+        "true_answer": "no",
+        "predicted_answer": "no.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "situs inversus",
+        "predicted_answer": "the small intestine, the cecum, the appendix, the ascites, and",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is situs inversus present?",
+        "true_answer": "yes",
+        "predicted_answer": "no.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is carcinomatosis present?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "where is this area in the body?",
+        "true_answer": "abdomen",
+        "predicted_answer": "abdomen.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "abdomen",
+        "predicted_answer": "the small intestine, the cecum, the appendix, the ascites, and",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "situs inversus",
+        "predicted_answer": "the small intestine, the cecum, the appendix, the ascites, and",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what illustrates pus from the peritoneal cavity?",
+        "true_answer": "case of peritonitis slide",
+        "predicted_answer": "a tube of brown liquid.",
+        "exact_match": false,
+        "f1_score": 0.2,
+        "bleu_score": 0.16666666666666669
+    },
+    {
+        "question": "what does case of peritonitis slide illustrate?",
+        "true_answer": "pus from the peritoneal cavity",
+        "predicted_answer": "peritonitis is the inflammation of the peritoneum, the thin layer of",
+        "exact_match": false,
+        "f1_score": 0.11764705882352941,
+        "bleu_score": 0.08333333333333333
+    },
+    {
+        "question": "did histologic view of the nodular stage demonstrate sheets of plump, proliferating spindle cells and slitlike vascular spaces?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "does case of peritonitis slide illustrate pus from the peritoneal cavity?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "does acute peritonitis illustrate pus from the peritoneal cavity?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what does this image show?",
+        "true_answer": "case of peritonitis slide illustrates pus from the peritoneal cavity",
+        "predicted_answer": "a tube is on a table and has brown liquid in it.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does this image show case of peritonitis slide illustrates pus from the peritoneal cavity?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "does case of peritonitis slide show case of peritonitis slide illustrates pus from the peritoneal cavity?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "abdomen",
+        "predicted_answer": "tube.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is abdomen present?",
+        "true_answer": "yes",
+        "predicted_answer": "no.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is tuberculous peritonitis present?",
+        "true_answer": "no",
+        "predicted_answer": "no.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "pus in test tube",
+        "predicted_answer": "tube.",
+        "exact_match": false,
+        "f1_score": 0.3333333333333333,
+        "bleu_score": 0.18393972058572117
+    },
+    {
+        "question": "is pus in test tube present?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "did periodic acid-schiff demonstrate sheets of plump, proliferating spindle cells and slitlike vascular spaces?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is subdiaphragmatic abscess present?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "where is this area in the body?",
+        "true_answer": "abdomen",
+        "predicted_answer": "stomach.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what illustrates pus from the peritoneal cavity?",
+        "true_answer": "case of peritonitis slide",
+        "predicted_answer": "a tube of brown liquid.",
+        "exact_match": false,
+        "f1_score": 0.2,
+        "bleu_score": 0.16666666666666669
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "abdomen",
+        "predicted_answer": "tube.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "pus in test tube",
+        "predicted_answer": "tube.",
+        "exact_match": false,
+        "f1_score": 0.3333333333333333,
+        "bleu_score": 0.18393972058572117
+    },
+    {
+        "question": "what psoas natural color large ovoid typical sarcoma?",
+        "true_answer": "opened muscle",
+        "predicted_answer": "white.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does opened muscle psoa natural color large ovoid typical sarcoma?",
+        "true_answer": "yes",
+        "predicted_answer": "10219.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does carcinomatosis psoa natural color large ovoid typical sarcoma?",
+        "true_answer": "no",
+        "predicted_answer": "unanswerable.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what does this image show?",
+        "true_answer": "opened muscle probably psoas natural color large ovoid typical sarcoma",
+        "predicted_answer": "a slide of tissue with the caption showing it contains 10219.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does this image show opened muscle probably psoas natural color large ovoid typical sarcoma?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what is concentric thickening of the left ventricular wall causing?",
+        "true_answer": "reduction in lumen size",
+        "predicted_answer": "hypertrophy.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does acute lymphocytic leukemia show opened muscle probably psoas natural color large ovoid typical sarcoma?",
+        "true_answer": "no",
+        "predicted_answer": "unanswerable.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "abdomen",
+        "predicted_answer": "testis.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is abdomen present?",
+        "true_answer": "yes",
+        "predicted_answer": "no.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is tuberculous peritonitis present?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "peritoneum",
+        "predicted_answer": "testis.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is peritoneum present?",
+        "true_answer": "yes",
+        "predicted_answer": "no.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is an opened peritoneal cavity cause by fibrous band strangulation present?",
+        "true_answer": "no",
+        "predicted_answer": "no.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "retroperitoneal leiomyosarcoma",
+        "predicted_answer": "testis.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is retroperitoneal leiomyosarcoma present?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "where is this area in the body?",
+        "true_answer": "abdomen",
+        "predicted_answer": "mouth.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is causing reduction in lumen size?",
+        "true_answer": "concentric thickening of the left ventricular wall",
+        "predicted_answer": "thickening of the intima.",
+        "exact_match": false,
+        "f1_score": 0.5,
+        "bleu_score": 0.40219202762138356
+    },
+    {
+        "question": "what psoas natural color large ovoid typical sarcoma?",
+        "true_answer": "opened muscle",
+        "predicted_answer": "white.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "abdomen",
+        "predicted_answer": "testis.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "peritoneum",
+        "predicted_answer": "testis.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "retroperitoneal leiomyosarcoma",
+        "predicted_answer": "testis.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "how does opened muscle psoa color large ovoid typical sarcoma?",
+        "true_answer": "natural",
+        "predicted_answer": "red.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "how does opened muscle psoa natural color ovoid typical sarcoma?",
+        "true_answer": "large",
+        "predicted_answer": "the opened muscle psoa is red-brown ovoid typical sarcoma.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "how does opened muscle psoa natural color large ovoid sarcoma?",
+        "true_answer": "typical",
+        "predicted_answer": "10219.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what shows cut surface with fish flesh appearance and extensive necrosis very good for illustrating appearance of a sarcoma?",
+        "true_answer": "this section showing liver tumor mass in hilar area tumor",
+        "predicted_answer": "answering does not require reading text in the image.",
+        "exact_match": false,
+        "f1_score": 0.10000000000000002,
+        "bleu_score": 0.10000000000000002
+    },
+    {
+        "question": "what does this section showing liver with tumor mass in hilar area tumor show?",
+        "true_answer": "cut surface fish flesh appearance and extensive necrosis very good for illustrating appearance of a sarcoma",
+        "predicted_answer": "a 5.5 x 4.3 x 3.8 cm tumor is present",
+        "exact_match": false,
+        "f1_score": 0.07692307692307693,
+        "bleu_score": 0.05488116360940265
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "abdomen",
+        "predicted_answer": "hepatocellular carcioma.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is there marked concentric thickening of the left ventricular wall causing reduction in lumen size?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "is abdomen present?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "is tuberculous peritonitis present?",
+        "true_answer": "no",
+        "predicted_answer": "no.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "retroperitoneum",
+        "predicted_answer": "hepatocellular carcioma.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is retroperitoneum present?",
+        "true_answer": "yes",
+        "predicted_answer": "no.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is metastatic carcinoma present?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "leiomyosarcoma",
+        "predicted_answer": "hepatocellular carcioma.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is leiomyosarcoma present?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "is acute peritonitis present?",
+        "true_answer": "no",
+        "predicted_answer": "no.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "where is this area in the body?",
+        "true_answer": "abdomen",
+        "predicted_answer": "liver.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what shows cut surface with fish flesh appearance and extensive necrosis very good for illustrating appearance of a sarcoma?",
+        "true_answer": "this section showing liver tumor mass in hilar area tumor",
+        "predicted_answer": "answering does not require reading text in the image.",
+        "exact_match": false,
+        "f1_score": 0.10000000000000002,
+        "bleu_score": 0.10000000000000002
+    },
+    {
+        "question": "is low-power view of a cross section of a skin blister showing the epidermis marked concentric thickening of the left ventricular wall causing reduction in lumen size?",
+        "true_answer": "no",
+        "predicted_answer": "no.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "abdomen",
+        "predicted_answer": "hepatocellular carcioma.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "retroperitoneum",
+        "predicted_answer": "hepatocellular carcioma.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "leiomyosarcoma",
+        "predicted_answer": "hepatocellular carcioma.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what cut surface natural color yellow and white typical gross sarcoma?",
+        "true_answer": "nodular tumor",
+        "predicted_answer": "aponeurotic.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is nodular tumor cut?",
+        "true_answer": "surface natural color yellow and white typical gross sarcoma",
+        "predicted_answer": "unknown.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is nodular tumor cut surface natural color yellow and white typical gross sarcoma?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what does this image show?",
+        "true_answer": "nodular tumor cut surface natural color yellow and white typical gross sarcoma",
+        "predicted_answer": "this image consists of a tissue.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does this image show nodular tumor cut surface natural color yellow and white typical gross sarcoma?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "abdomen",
+        "predicted_answer": "brain.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is abdomen present?",
+        "true_answer": "yes",
+        "predicted_answer": "no.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what are shown on the right in this four-chamber view of the heart?",
+        "true_answer": "the left ventricle and left atrium",
+        "predicted_answer": "the right atrium, right ventricle, tricuspid valve, and the main pul",
+        "exact_match": false,
+        "f1_score": 0.4,
+        "bleu_score": 0.2857142857142857
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "peritoneum",
+        "predicted_answer": "brain.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is peritoneum present?",
+        "true_answer": "yes",
+        "predicted_answer": "no.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "retroperitoneal liposarcoma",
+        "predicted_answer": "brain.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is retroperitoneal liposarcoma present?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "where is this area in the body?",
+        "true_answer": "abdomen",
+        "predicted_answer": "abdomen.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what cut surface natural color yellow and white typical gross sarcoma?",
+        "true_answer": "nodular tumor",
+        "predicted_answer": "aponeurotic.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "abdomen",
+        "predicted_answer": "brain.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "peritoneum",
+        "predicted_answer": "brain.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "retroperitoneal liposarcoma",
+        "predicted_answer": "brain.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "how is nodular tumor cut surface color yellow and white typical gross sarcoma?",
+        "true_answer": "natural",
+        "predicted_answer": "the cut surface of a nodular tumor is yellow and white.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does early ischemic injury show surface blebs, increase eosinophilia of cytoplasm, and swelling of occasional cells?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "where is the atrium shown?",
+        "true_answer": "on the right in this four-chamber view of the heart",
+        "predicted_answer": "right.",
+        "exact_match": false,
+        "f1_score": 0.16666666666666669,
+        "bleu_score": 0.00915781944436709
+    },
+    {
+        "question": "how is nodular tumor cut surface natural color and white typical gross sarcoma?",
+        "true_answer": "yellow",
+        "predicted_answer": "red.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "how is nodular tumor cut surface natural color yellow and typical gross sarcoma?",
+        "true_answer": "white",
+        "predicted_answer": "white.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "how is nodular tumor cut surface natural color yellow and white gross sarcoma?",
+        "true_answer": "typical",
+        "predicted_answer": "the cut surface of the specimen is a yellowish white.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "how is nodular tumor cut surface natural color yellow and white typical sarcoma?",
+        "true_answer": "gross",
+        "predicted_answer": "rubbery.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does this image show excellent?",
+        "true_answer": "yes",
+        "predicted_answer": "no.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does abdomen show excellent?",
+        "true_answer": "no",
+        "predicted_answer": "no.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "abdomen",
+        "predicted_answer": "the liver is congested with blood and there is ascites.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is abdomen present?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "is slices of liver and spleen typical tuberculous exudate is present on capsule of liver and spleen present?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "peritoneum",
+        "predicted_answer": "the liver is congested with blood and there is ascites.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is the atrium shown on the right in this four-chamber view of the heart?",
+        "true_answer": "yes",
+        "predicted_answer": "no.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is peritoneum present?",
+        "true_answer": "yes",
+        "predicted_answer": "no.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is this section showing liver with tumor mass in hilar area tumor present?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "metastatic carcinoma",
+        "predicted_answer": "the liver is congested with blood and there is ascites.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is metastatic carcinoma present?",
+        "true_answer": "yes",
+        "predicted_answer": "no.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is subdiaphragmatic abscess present?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "where is this area in the body?",
+        "true_answer": "abdomen",
+        "predicted_answer": "abdomen.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "abdomen",
+        "predicted_answer": "the liver is congested with blood and there is ascites.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "peritoneum",
+        "predicted_answer": "the liver is congested with blood and there is ascites.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "metastatic carcinoma",
+        "predicted_answer": "the liver is congested with blood and there is ascites.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what does this image show?",
+        "true_answer": "in situ of abdomen excellent fibrinopurulent peritonitis",
+        "predicted_answer": "an opened abdomen with the intestines laying outside of the body.",
+        "exact_match": false,
+        "f1_score": 0.2105263157894737,
+        "bleu_score": 0.16666666666666669
+    },
+    {
+        "question": "are the extensive subcutaneous fibrosis shown on the right in this four-chamber view of the heart?",
+        "true_answer": "no",
+        "predicted_answer": "no.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "does this image show in situ of abdomen excellent fibrinopurulent peritonitis?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "does carcinomatosis show in situ of abdomen excellent fibrinopurulent peritonitis?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "acute peritonitis",
+        "predicted_answer": "the liver is congested and nodular.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is acute peritonitis present?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "is opened abdominal cavity with massive tumor in omentum none apparent in liver nor over peritoneal surfaces gut present?",
+        "true_answer": "no",
+        "predicted_answer": "no.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "where is this area in the body?",
+        "true_answer": "abdomen",
+        "predicted_answer": "abdomen.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "acute peritonitis",
+        "predicted_answer": "the liver is congested and nodular.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what does this image show?",
+        "true_answer": "malignant cells mixed mesodermal tumor of uterus",
+        "predicted_answer": "this image shows a blood smear.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does this image show malignant cells mixed mesodermal tumor of uterus?",
+        "true_answer": "yes",
+        "predicted_answer": "the given image is not clear but it is likely to represent a section of a tissue.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does situs inversus show malignant cells mixed mesodermal tumor of uterus?",
+        "true_answer": "no",
+        "predicted_answer": "no.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "are the left ventricle and left atrium shown on the right in this four-chamber view of the heart?",
+        "true_answer": "yes",
+        "predicted_answer": "no.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "abdomen",
+        "predicted_answer": "eosinophils.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is abdomen present?",
+        "true_answer": "yes",
+        "predicted_answer": "no.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is slices of liver and spleen typical tuberculous exudate is present on capsule of liver and spleen present?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "peritoneal fluid",
+        "predicted_answer": "eosinophils.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is peritoneal fluid present?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "carcinoma",
+        "predicted_answer": "eosinophils.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is carcinoma present?",
+        "true_answer": "yes",
+        "predicted_answer": "no.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is leiomyosarcoma present?",
+        "true_answer": "no",
+        "predicted_answer": "no.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "abdomen",
+        "predicted_answer": "eosinophils.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "peritoneal fluid",
+        "predicted_answer": "eosinophils.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "are this degree of external dysmorphogenesis left atrium shown on the right in this four-chamber view of the heart?",
+        "true_answer": "no",
+        "predicted_answer": "no.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "carcinoma",
+        "predicted_answer": "eosinophils.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "why does this image show gram negative septicemia?",
+        "true_answer": "due to scalp electrode in a neonate",
+        "predicted_answer": "gram negative septicemia is characterized by the presence of endotoxin in the blood.",
+        "exact_match": false,
+        "f1_score": 0.09523809523809523,
+        "bleu_score": 0.07142857142857141
+    },
+    {
+        "question": "what does this image show?",
+        "true_answer": "gram negative septicemia due to scalp electrode in a neonate",
+        "predicted_answer": "this image shows a part of the human body.",
+        "exact_match": false,
+        "f1_score": 0.10000000000000002,
+        "bleu_score": 0.10000000000000002
+    },
+    {
+        "question": "does this image show gram negative septicemia due to scalp electrode in a neonate?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "does acid show gram negative septicemia due to scalp electrode in a neonate?",
+        "true_answer": "no",
+        "predicted_answer": "gram negative septicemia due to scalp electrode in a neonate is associated with",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "why does this image show gram negative septicemia?",
+        "true_answer": "due to scalp electrode in a neonate",
+        "predicted_answer": "gram negative septicemia is characterized by the presence of endotoxin in the bloodstream",
+        "exact_match": false,
+        "f1_score": 0.1,
+        "bleu_score": 0.07692307692307693
+    },
+    {
+        "question": "what does this image show?",
+        "true_answer": "gram negative septicemia due to scalp electrode in a neonate",
+        "predicted_answer": "this is an image of a skin.",
+        "exact_match": false,
+        "f1_score": 0.11111111111111112,
+        "bleu_score": 0.09735009788392564
+    },
+    {
+        "question": "does this image show gram negative septicemia due to scalp electrode in a neonate?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "does acute lymphocytic leukemia show gram negative septicemia due to scalp electrode in a neonate?",
+        "true_answer": "no",
+        "predicted_answer": "yes, acute lymphocytic leukemia can show gram negative septic",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what does this image show?",
+        "true_answer": "hand",
+        "predicted_answer": "a hand with a wound on the tip of the thumb.",
+        "exact_match": true,
+        "f1_score": 0.15384615384615385,
+        "bleu_score": 0.08333333333333333
+    },
+    {
+        "question": "what is presented incidentally in the right ventricle?",
+        "true_answer": "a pacemaker",
+        "predicted_answer": "moderate atherosclerotic calcification.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does this image show hand, gunshot entrance wound, intermediate range, powder burns freckling?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "does mesothelioma show hand, gunshot entrance wound, intermediate range, powder burns freckling?",
+        "true_answer": "no",
+        "predicted_answer": "gunshot entrance wound.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what removed shows size of organs quite well and renal facies?",
+        "true_answer": "opened dysmorphic body with all except kidneys",
+        "predicted_answer": "peritoneum.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is opened dysmorphic body with all organs except kidneys removed?",
+        "true_answer": "shows size of quite well and renal facies",
+        "predicted_answer": "specimen.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is opened dysmorphic body with all organs except kidneys removed shows size of organs quite well and renal facies?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "does this image show opened dysmorphic body with all organs except kidneys removed shows size of organs quite well and renal facies?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what is present of kidneys?",
+        "true_answer": "polycystic disease",
+        "predicted_answer": "both kidneys are present.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is polycystic disease of kidneys present?",
+        "true_answer": "yes",
+        "predicted_answer": "no.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is retroperitoneal leiomyosarcoma of kidneys present?",
+        "true_answer": "no",
+        "predicted_answer": "no.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what removed shows size of organs quite well and renal facies?",
+        "true_answer": "opened dysmorphic body with all except kidneys",
+        "predicted_answer": "peritoneum.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "where is the pacemaker?",
+        "true_answer": "in the right ventricle",
+        "predicted_answer": "right ventricle.",
+        "exact_match": false,
+        "f1_score": 0.5714285714285715,
+        "bleu_score": 0.47768754038252614
+    },
+    {
+        "question": "what appear too short has six digits?",
+        "true_answer": "a barely seen vascular mass extruding from occipital region of skull arms and legs",
+        "predicted_answer": "123456.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "how many digits do a barely seen vascular mass extruding from occipital region of skull arms and legs appear too short has?",
+        "true_answer": "six",
+        "predicted_answer": "one.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what do a barely seen vascular mass extruding from occipital region of skull arms and legs appear?",
+        "true_answer": "too short has six digits",
+        "predicted_answer": "in the fetus.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "do a barely seen vascular mass extruding from occipital region of skull arms and legs appear too short has six digits?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what does this image show?",
+        "true_answer": "lateral view of body with renal facies no neck",
+        "predicted_answer": "a very young baby with red skin is lying on a blue surface.",
+        "exact_match": false,
+        "f1_score": 0.08695652173913043,
+        "bleu_score": 0.07142857142857141
+    },
+    {
+        "question": "does this image show lateral view of body with renal facies no neck?",
+        "true_answer": "yes",
+        "predicted_answer": "no.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does peritoneum show lateral view of body with renal facies no neck?",
+        "true_answer": "no",
+        "predicted_answer": "no.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what is present of kidneys?",
+        "true_answer": "polycystic disease",
+        "predicted_answer": "no kidneys present.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is polycystic disease of kidneys present?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "is acid of kidneys present?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is a pacemaker presented incidentally in the right ventricle?",
+        "true_answer": "yes",
+        "predicted_answer": "no.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what appear too short?",
+        "true_answer": "no neck and a barely seen vascular mass extruding from occipital region of skull arms and legs",
+        "predicted_answer": "arms.",
+        "exact_match": false,
+        "f1_score": 0.10526315789473684,
+        "bleu_score": 0.0002765421850739168
+    },
+    {
+        "question": "what has six digits?",
+        "true_answer": "lateral view of body with renal facies no neck and a barely seen vascular mass extruding from occipital region of skull arms and legs appear too short",
+        "predicted_answer": "123456.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what does lateral view of body with renal facies no neck and a barely seen vascular mass extruding from occipital region of skull arms and legs appear too short have?",
+        "true_answer": "six digits",
+        "predicted_answer": "have a large occiput.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what does this image show?",
+        "true_answer": "posterior view open cord",
+        "predicted_answer": "a very young fetus or premature baby covered in amniotic fluid.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does this image show posterior view open cord?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "does natural color show posterior view open cord?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "anencephaly",
+        "predicted_answer": "a placenta.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is anencephaly present?",
+        "true_answer": "yes",
+        "predicted_answer": "no.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is liver with tuberculoid granuloma in glissons present?",
+        "true_answer": "no",
+        "predicted_answer": "unanswerable.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "anencephaly",
+        "predicted_answer": "a placenta.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is cohesive tumor in retina presented incidentally in the right ventricle?",
+        "true_answer": "no",
+        "predicted_answer": "unanswerable.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what does this image show?",
+        "true_answer": "posterior view of body lesions mostly in head neck and thorax",
+        "predicted_answer": "the word newton is on the blue towel under the baby.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does this image show posterior view of body lesions mostly in head neck and thorax?",
+        "true_answer": "yes",
+        "predicted_answer": "no.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does mesothelioma show posterior view of body lesions mostly in head neck and thorax?",
+        "true_answer": "no",
+        "predicted_answer": "no.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "lymphangiomatosis",
+        "predicted_answer": "fetus.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is lymphangiomatosis present?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "is leiomyosarcoma present?",
+        "true_answer": "no",
+        "predicted_answer": "no.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "lymphangiomatosis",
+        "predicted_answer": "fetus.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "newborn cord around neck",
+        "predicted_answer": "a tape measure with metric on it.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is newborn cord around neck present?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "is acute lymphocytic leukemia present?",
+        "true_answer": "no",
+        "predicted_answer": "no.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what are heaped up within the sinuses of valsalva?",
+        "true_answer": "nodular masses of calcium",
+        "predicted_answer": "chordae tendinae.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "newborn cord around neck",
+        "predicted_answer": "a tape measure with metric on it.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what does this image show?",
+        "true_answer": "view of face and chest anterior",
+        "predicted_answer": "a deformed baby with a large head and no arms or legs.",
+        "exact_match": false,
+        "f1_score": 0.10526315789473684,
+        "bleu_score": 0.07692307692307693
+    },
+    {
+        "question": "does this image show view of face and chest anterior?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "does subdiaphragmatic abscess show view of face and chest anterior?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "anencephaly",
+        "predicted_answer": "a scale.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is anencephaly present?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "is skin over back a buttocks present?",
+        "true_answer": "no",
+        "predicted_answer": "no.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "anencephaly",
+        "predicted_answer": "a scale.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what does this image show?",
+        "true_answer": "body burns 24 hours prior now anasarca",
+        "predicted_answer": "a man with burns is laying on a table in a hospital.",
+        "exact_match": false,
+        "f1_score": 0.1,
+        "bleu_score": 0.07692307692307693
+    },
+    {
+        "question": "does this image show body burns 24 hours prior now anasarca?",
+        "true_answer": "yes",
+        "predicted_answer": "no.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "do necrotic cells show preserved outlines with loss of nuclei, and an inflammatory infiltrate is present (difficult to discern at this magnification)?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what are nodular masses of calcium heaped up within?",
+        "true_answer": "the sinuses valsalva",
+        "predicted_answer": "heart.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does situs inversus show body burns 24 hours prior now anasarca?",
+        "true_answer": "no",
+        "predicted_answer": "situs inversus shows body burns 24 hours prior to anasarca",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what does this image show?",
+        "true_answer": "close-up view of head anterior view",
+        "predicted_answer": "a newborn baby with a ruler measuring from 1 to 5.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does this image show close-up view of head anterior view?",
+        "true_answer": "yes",
+        "predicted_answer": "no.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "conjoined twins cephalothoracopagus janiceps",
+        "predicted_answer": "a baby is present.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is conjoined twins cephalothoracopagus janiceps present?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "conjoined twins cephalothoracopagus janiceps",
+        "predicted_answer": "a baby is present.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what does this image show?",
+        "true_answer": "conjoined twins at head and chest",
+        "predicted_answer": "this image consists of a kid lying on a blue color cloth.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does this image show conjoined twins at head and chest?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what is the best photo to illustrate this case externally?",
+        "true_answer": "this",
+        "predicted_answer": "the best photo to illustrate this case externally is the one that shows the child with a blue",
+        "exact_match": true,
+        "f1_score": 0.10526315789473684,
+        "bleu_score": 0.05555555555555554
+    },
+    {
+        "question": "what is this to illustrate this case externally?",
+        "true_answer": "the best photo",
+        "predicted_answer": "protuberant ears.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "are nodular masses of calcium heaped up within the sinuses of valsalva?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "is this the best photo to illustrate this case externally?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "cephalothoracopagus janiceps",
+        "predicted_answer": "a baby with a congenital disorder.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is cephalothoracopagus janiceps present?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what is the best photo to illustrate this case externally?",
+        "true_answer": "this",
+        "predicted_answer": "the best photo to illustrate this case externally is the one that shows the child with a blue",
+        "exact_match": true,
+        "f1_score": 0.10526315789473684,
+        "bleu_score": 0.05555555555555554
+    },
+    {
+        "question": "what is this to illustrate this case externally?",
+        "true_answer": "the best photo",
+        "predicted_answer": "protuberant ears.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "cephalothoracopagus janiceps",
+        "predicted_answer": "a baby with a congenital disorder.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what does this image show?",
+        "true_answer": "joined anterior chest and abdomen",
+        "predicted_answer": "a pair of infants are connected by a placenta and a surgeon is operating on them.",
+        "exact_match": false,
+        "f1_score": 0.0909090909090909,
+        "bleu_score": 0.0588235294117647
+    },
+    {
+        "question": "does this image show joined anterior chest and abdomen?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "siamese twins",
+        "predicted_answer": "a ruler.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is siamese twins present?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "are small nests of epithelial cells and myxoid stroma forming cartilage and bone heaped up within the sinuses of valsalva?",
+        "true_answer": "no",
+        "predicted_answer": "yes, they are.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "siamese twins",
+        "predicted_answer": "a ruler.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what does this image show?",
+        "true_answer": "lateral view of head typical example",
+        "predicted_answer": "a baby with a condition that causes red skin and white patches all over the body.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does this image show lateral view of head typical example?",
+        "true_answer": "yes",
+        "predicted_answer": "no.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does conjoined twins show lateral view of head typical example?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "anencephaly",
+        "predicted_answer": "amniotic fluid.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is anencephaly present?",
+        "true_answer": "yes",
+        "predicted_answer": "no.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is tuberculous peritonitis present?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "anencephaly",
+        "predicted_answer": "amniotic fluid.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what does this image show?",
+        "true_answer": "view from back typical example",
+        "predicted_answer": "a person with a ruler measuring a wound on their head.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does this image show view from back typical example?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what are not fused, as in rheumatic aortic valve stenosis?",
+        "true_answer": "the commissures",
+        "predicted_answer": "the aortic valve.",
+        "exact_match": false,
+        "f1_score": 0.3333333333333333,
+        "bleu_score": 0.25
+    },
+    {
+        "question": "does retroperitoneum show view from back typical example?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "anencephaly",
+        "predicted_answer": "a ruler.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is anencephaly present?",
+        "true_answer": "yes",
+        "predicted_answer": "no.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is slices of liver and spleen typical tuberculous exudate is present on capsule of liver and spleen present?",
+        "true_answer": "no",
+        "predicted_answer": "no.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "anencephaly",
+        "predicted_answer": "a ruler.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what was taken?",
+        "true_answer": "this section",
+        "predicted_answer": "blood.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "was this section taken?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what does this image show?",
+        "true_answer": "micro low mag h&e would have to get protocol to determine where section was taken",
+        "predicted_answer": "this is an image of a microscopic slide of tissue stained with hematoxylin and",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does this image show micro low mag h&e would have to get protocol to determine where this section was taken?",
+        "true_answer": "yes",
+        "predicted_answer": "unsure.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "notochord",
+        "predicted_answer": "fat emboli.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "how are the commissures stenosis?",
+        "true_answer": "not fused",
+        "predicted_answer": "mild.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is notochord present?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "is retroperitoneal liposarcoma present?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what was taken?",
+        "true_answer": "this section",
+        "predicted_answer": "blood.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "notochord",
+        "predicted_answer": "fat emboli.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "notochord",
+        "predicted_answer": "fat emboli.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is notochord present?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "is liver present?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "notochord",
+        "predicted_answer": "fat emboli.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what does this image show?",
+        "true_answer": "epithelial component resembling endometrium",
+        "predicted_answer": "this is a microscopic image of a tissue section stained with hematoxylin and e",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does this image show epithelial component resembling endometrium?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "are the commissures not fused, as in rheumatic aortic valve stenosis?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "does newborn cord around neck show epithelial component resembling endometrium?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "sacrococcygeal teratoma",
+        "predicted_answer": "chronic inflammation.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is sacrococcygeal teratoma present?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "is nodular tumor present?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is present?",
+        "true_answer": "sacrococcygeal teratoma",
+        "predicted_answer": "chronic inflammation.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what does this image show?",
+        "true_answer": "herpes zoster",
+        "predicted_answer": "a man with a skin disorder that has lesions all over his chest and abdomen.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does this image show herpes zoster?",
+        "true_answer": "yes",
+        "predicted_answer": "yes.",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "does retroperitoneal leiomyosarcoma show herpes zoster?",
+        "true_answer": "no",
+        "predicted_answer": "yes.",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    }
+]
