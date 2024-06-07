@@ -8,10 +8,9 @@ from transformers import TrainingArguments, Trainer
 
 DEVICE = "cuda:0"
 
-# Set the environment variables
 os.environ['HF_HOME'] = "/home/bpm_azure_cs231n_key/huggingface_cache"
 os.environ['TRANSFORMERS_CACHE'] = "/home/bpm_azure_cs231n_key/huggingface_cache"
-os.environ["HF_TOKEN"] = "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"
+os.environ["HF_TOKEN"] = "hf_****"
 hf_token = os.environ.get('HF_TOKEN')
 
 processor = AutoProcessor.from_pretrained(
@@ -42,12 +41,11 @@ model = Idefics2ForConditionalGeneration.from_pretrained(
 model.add_adapter(lora_config)
 model.enable_adapters()
 
-# Load VQA for FT only no SSL
+# Load VQA for FT only no pre-train
 dataset = load_dataset("flaviagiammarino/vqa-rad")
 train_dataset = dataset["train"] #.select(range(100)) # do 1700 train, 400 test,
 eval_dataset = dataset["test"] #.select(range(200))
 
-# DataCollator
 class MyDataCollator2:
     def __init__(self, processor):
         self.processor = processor
@@ -90,7 +88,6 @@ class MyDataCollator2:
 
         return batch
 
-# DataCollator
 data_collator2 = MyDataCollator2(processor)
 
 output_dir = "/home/bpm_azure_cs231n_key/idefics_finetune_baseonly__outputs"
@@ -123,7 +120,7 @@ trainer2 = Trainer(
 
 trainer2.train()
 
-# Save the stage 2 fine-tuned model
+# the stage 2 fine-tuned model
 model.save_pretrained("idefics2-8B-finetuned-base-only")
 
 ## EVAL

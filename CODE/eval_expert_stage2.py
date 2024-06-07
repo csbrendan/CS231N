@@ -11,10 +11,9 @@ import re
 
 DEVICE = "cuda:0"
 
-# Set the environment variables
 os.environ['HF_HOME'] = "/home/bpm_azure_cs231n_key/huggingface_cache"
 os.environ['TRANSFORMERS_CACHE'] = "/home/bpm_azure_cs231n_key/huggingface_cache"
-os.environ["HF_TOKEN"] = "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"
+os.environ["HF_TOKEN"] = "hf_*****"
 hf_token = os.environ.get('HF_TOKEN')
 
 processor = AutoProcessor.from_pretrained(
@@ -22,23 +21,24 @@ processor = AutoProcessor.from_pretrained(
     do_image_splitting=False
 )
 
-# Load the fine-tuned model
 model = Idefics2ForConditionalGeneration.from_pretrained(
     #"idefics2-8B-finetuned-stage2",
     #"optimized-idefics2-8B-finetuned-stage2",
-    "idefics2-8B-finetuned-stage2-full-train",
+    #"idefics2-8B-finetuned-stage2-full-train",
+    "idefics2-8B-finetuned-stage2-ROCO-65k-train",
+
     torch_dtype=torch.float16,
 ).to(DEVICE)
 
 dataset = load_dataset("flaviagiammarino/vqa-rad")
-eval_dataset = dataset["test"] #.select(range(100))  # Select the first 20 samples for evaluation
+eval_dataset = dataset["test"] #.select(range(100)) 
 
 def check_inference(model, processor, image, question, max_new_tokens=20):
     messages = [
         {
             "role": "user",
             "content": [
-                {"type": "text", "text": "Answer briefly."},
+                {"type": "text", "text": "You are an expert radiologist evaluating the case, answer the question succinctly based on the medical image."},
                 {"type": "image"},
                 {"type": "text", "text": question}
             ]
@@ -50,7 +50,6 @@ def check_inference(model, processor, image, question, max_new_tokens=20):
     generated_texts = processor.batch_decode(generated_ids[:, inputs["input_ids"].size(1):], skip_special_tokens=True)
     return generated_texts[0]
 
-# Function from the provided code
 def check_accuracy(model, processor, dataset, num_samples=20):
     exact_match_correct = 0
     f1_scores = []
@@ -68,7 +67,6 @@ def check_accuracy(model, processor, dataset, num_samples=20):
         if true_answer in predicted_answer:
             exact_match_correct += 1
 
-        # Extract the relevant answer portion from the predicted answer
         answer_start = predicted_answer.find("answer:")
         if answer_start != -1:
             answer_end = predicted_answer.find("question:", answer_start)
@@ -120,13 +118,9 @@ def check_accuracy(model, processor, dataset, num_samples=20):
 
     return results
 
-
-
-
-# Measure baseline performance
 results = check_accuracy(model, processor, eval_dataset, num_samples=400)
 
-# Save results to JSON file
+# to JSON file
 #with open('eval_stage2_results.json', 'w') as json_file:
-with open('eval_full_stage2_results.json', 'w') as json_file:
+with open('eval_expert_prompt_results.json', 'w') as json_file:
     json.dump(results, json_file, indent=4)

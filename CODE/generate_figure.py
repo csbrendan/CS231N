@@ -9,30 +9,29 @@ import json
 import csv
 import re
 
+from PIL import Image
+
 DEVICE = "cuda:0"
 
-# Set the environment variables
+
 os.environ['HF_HOME'] = "/home/bpm_azure_cs231n_key/huggingface_cache"
 os.environ['TRANSFORMERS_CACHE'] = "/home/bpm_azure_cs231n_key/huggingface_cache"
-os.environ["HF_TOKEN"] = "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"
+os.environ["HF_TOKEN"] = "hf_********"
 hf_token = os.environ.get('HF_TOKEN')
 
-# Load the processor for idefics2
 processor = AutoProcessor.from_pretrained(
     "HuggingFaceM4/idefics2-8b",
     do_image_splitting=False
 )
 
-# Load the fine-tuned model
 model = Idefics2ForConditionalGeneration.from_pretrained(
-    #"idefics2-8B-pretrained",
-    #"enhanced-idefics2-8B-pretrained",
-    "idefics2-8B-pretrained-full-train",
+    #"idefics2-8B-finetuned-stage2",
+    "optimized-idefics2-8B-finetuned-stage2",
     torch_dtype=torch.float16,
 ).to(DEVICE)
 
 dataset = load_dataset("flaviagiammarino/vqa-rad")
-eval_dataset = dataset["test"] #.select(range(100))  # Select the first 20 samples for evaluation
+eval_dataset = dataset["test"].select(range(100))  
 
 def check_inference(model, processor, image, question, max_new_tokens=20):
     messages = [
@@ -51,12 +50,12 @@ def check_inference(model, processor, image, question, max_new_tokens=20):
     generated_texts = processor.batch_decode(generated_ids[:, inputs["input_ids"].size(1):], skip_special_tokens=True)
     return generated_texts[0]
 
-
 def check_accuracy(model, processor, dataset, num_samples=20):
     exact_match_correct = 0
     f1_scores = []
     bleu_scores = []
     results = []
+    multi_word_examples = []
 
     for i in range(num_samples):
         example = dataset[i]
@@ -65,11 +64,10 @@ def check_accuracy(model, processor, dataset, num_samples=20):
         true_answer = example['answer'].lower()
         predicted_answer = check_inference(model, processor, image, question, max_new_tokens=20).lower()
 
-        # Exact Match Accuracy
+        # exact Match Accuracy
         if true_answer in predicted_answer:
             exact_match_correct += 1
 
-        # Extract the relevant answer portion from the predicted answer
         answer_start = predicted_answer.find("answer:")
         if answer_start != -1:
             answer_end = predicted_answer.find("question:", answer_start)
@@ -77,7 +75,7 @@ def check_accuracy(model, processor, dataset, num_samples=20):
                 answer_end = len(predicted_answer)
             predicted_answer = predicted_answer[answer_start + len("answer:"):answer_end].strip()
 
-        # Remove any "assistant:" text from the predicted answer
+        # remove any "assistant:" text from the predicted answer
         predicted_answer = predicted_answer.replace("assistant:", "").strip()
 
         # Token-based F1 Score
@@ -103,6 +101,17 @@ def check_accuracy(model, processor, dataset, num_samples=20):
         }
         results.append(result)
 
+
+        # Check if true or predicted answer is more than one word and f1_score is 0.5 or better
+        if (len(true_tokens) > 1 or len(pred_tokens) > 1) and f1_score >= 0.5:
+            multi_word_examples.append(result)
+            # Save the corresponding image to a local file
+            image_file_path = f"example_{len(multi_word_examples)}.png"
+            image.save(image_file_path)
+            print(f"Exported image to: {image_file_path}")
+            if len(multi_word_examples) == 5:
+                break
+
         print(f"Question: {question}")
         print(f"True Answer: {true_answer}")
         print(f"Predicted Answer: {predicted_answer}")
@@ -119,12 +128,20 @@ def check_accuracy(model, processor, dataset, num_samples=20):
     print(f"Average F1 Score: {avg_f1_score:.2f}")
     print(f"Average BLEU Score: {avg_bleu_score:.2f}")
 
+    # print the first 5 examples with true or predicted answer more than one word and f1_score >= 0.5
+    print("Examples with true or predicted answer more than one word and f1_score >= 0.5:")
+    for example in multi_word_examples:
+        print(example)
+
+
     return results
 
 
-# Measure baseline performance
-results = check_accuracy(model, processor, eval_dataset, num_samples=400)
+
+
+results = check_accuracy(model, processor, eval_dataset, num_samples=100)
 
 # Save results to JSON file
-with open('eval_full_pretrained_results.json', 'w') as json_file:
+#with open('eval_stage2_results.json', 'w') as json_file:
+with open('eval_enhanced_stage2_results.json', 'w') as json_file:
     json.dump(results, json_file, indent=4)

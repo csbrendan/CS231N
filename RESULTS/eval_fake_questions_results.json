@@ -1,0 +1,22 @@
+[
+    {
+        "fake_question": "In the fantastical land where people walk upside down, where the sky is green and the grass is blue, what fantastical term defines the movement disorder characterized by the inane and nonsensical phenomenon of simultaneous contraction of agonist and antagonist muscles, inducing absurd postural changes and inexplicable movements?",
+        "predicted_answer": "chorea"
+    },
+    {
+        "fake_question": "In the realm of improbability, where mermaids reign supreme with their uncanny possession of esophagi, by what unfathomable and inexplicable histological finding could the incomprehensible diagnosis of Barret\"s esophagus be ascertained in a Mermaid biopsy?",
+        "predicted_answer": "well, if you think about it, it's not that far-fetched"
+    },
+    {
+        "fake_question": "Far beyond our known universe, in the mysterious and wondrous planet of Gorgons, where liver cancer claims countless lives of their benevolent creatures, which of the following preposterously absurd and nonsensical measures cannot serve as a surgical resection of poor prognostic factors for their liver cancer?",
+        "predicted_answer": "1. transverse colon resection"
+    },
+    {
+        "fake_question": "Amidst the absurdity of a world entirely composed of candy and chocolates, which of the following incomprehensible and fantastical scenarios is not a reality?",
+        "predicted_answer": "a patient with a normal brain"
+    },
+    {
+        "fake_question": "Regarding the laughably absurd concept of imaginary exercises with the incentive spirometer, which can only exist in the realm of fantasy and fiction, what unapologetically false and utterly ludicrous statement is somewhat true?",
+        "predicted_answer": "the patient has been instructed to perform imaginary exercises with the incentive spirometer."
+    }
+]

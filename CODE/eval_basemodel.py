@@ -6,32 +6,44 @@ from datasets import load_dataset
 from nltk.tokenize import word_tokenize
 from nltk.translate.bleu_score import sentence_bleu
 import json
-import csv
-import re
 
 DEVICE = "cuda:0"
 
-# Set the environment variables
+# ENV vars
 os.environ['HF_HOME'] = "/home/bpm_azure_cs231n_key/huggingface_cache"
 os.environ['TRANSFORMERS_CACHE'] = "/home/bpm_azure_cs231n_key/huggingface_cache"
-os.environ["HF_TOKEN"] = "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"
+os.environ["HF_TOKEN"] = "hf_*****"
 hf_token = os.environ.get('HF_TOKEN')
 
-# Load the processor for idefics2
 processor = AutoProcessor.from_pretrained(
     "HuggingFaceM4/idefics2-8b",
     do_image_splitting=False
 )
 
-# Load the fine-tuned model
-model = Idefics2ForConditionalGeneration.from_pretrained(
-    #"idefics2-8B-pretrained",
-    "idefics2-8B-finetuned-base-only",
-    torch_dtype=torch.float16,
-).to(DEVICE)
+lora_config = LoraConfig(
+    r=8,
+    lora_alpha=8,
+    lora_dropout=0.1,
+    target_modules='.*(text_model|modality_projection|perceiver_resampler).*(down_proj|gate_proj|up_proj|k_proj|q_proj|v_proj|o_proj).*$',
+    init_lora_weights="gaussian"
+)
 
+bnb_config = BitsAndBytesConfig(
+    load_in_4bit=True,
+    bnb_4bit_quant_type="nf4",
+    bnb_4bit_compute_dtype=torch.float16
+)
+model = Idefics2ForConditionalGeneration.from_pretrained(
+    "HuggingFaceM4/idefics2-8b",
+    torch_dtype=torch.float16,
+    quantization_config=bnb_config,
+)
+model.add_adapter(lora_config)
+model.enable_adapters()
+
+# EVAL on VQA-RAD test set
 dataset = load_dataset("flaviagiammarino/vqa-rad")
-eval_dataset = dataset["test"] #.select(range(100))  # Select the first 20 samples for evaluation
+eval_dataset = dataset["test"] #.select(range(100))  # Select the first N samples for quick evaluation
 
 def check_inference(model, processor, image, question, max_new_tokens=20):
     messages = [
@@ -50,7 +62,6 @@ def check_inference(model, processor, image, question, max_new_tokens=20):
     generated_texts = processor.batch_decode(generated_ids[:, inputs["input_ids"].size(1):], skip_special_tokens=True)
     return generated_texts[0]
 
-
 def check_accuracy(model, processor, dataset, num_samples=20):
     exact_match_correct = 0
     f1_scores = []
@@ -64,11 +75,10 @@ def check_accuracy(model, processor, dataset, num_samples=20):
         true_answer = example['answer'].lower()
         predicted_answer = check_inference(model, processor, image, question, max_new_tokens=20).lower()
 
-        # Exact Match Accuracy
+        # Exact Match Accuracy 
         if true_answer in predicted_answer:
             exact_match_correct += 1
 
-        # Extract the relevant answer portion from the predicted answer
         answer_start = predicted_answer.find("answer:")
         if answer_start != -1:
             answer_end = predicted_answer.find("question:", answer_start)
@@ -76,7 +86,7 @@ def check_accuracy(model, processor, dataset, num_samples=20):
                 answer_end = len(predicted_answer)
             predicted_answer = predicted_answer[answer_start + len("answer:"):answer_end].strip()
 
-        # Remove any "assistant:" text from the predicted answer
+        # remove any "assistant:" text from the predicted answer
         predicted_answer = predicted_answer.replace("assistant:", "").strip()
 
         # Token-based F1 Score
@@ -88,7 +98,7 @@ def check_accuracy(model, processor, dataset, num_samples=20):
         f1_score = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
         f1_scores.append(f1_score)
 
-        # BLEU Score
+        # BLEU Score 
         bleu_score = sentence_bleu([true_tokens], pred_tokens, weights=(1, 0, 0, 0))
         bleu_scores.append(bleu_score)
 
@@ -120,10 +130,8 @@ def check_accuracy(model, processor, dataset, num_samples=20):
 
     return results
 
-
-# Measure baseline performance
 results = check_accuracy(model, processor, eval_dataset, num_samples=400)
 
-# Save results to JSON file
-with open('eval_ft_base_only_results.json', 'w') as json_file:
+# to JSON file
+with open('baseline_results.json', 'w') as json_file:
     json.dump(results, json_file, indent=4)

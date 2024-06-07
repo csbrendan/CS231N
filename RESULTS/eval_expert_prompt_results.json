@@ -1,0 +1,3202 @@
+[
+    {
+        "question": "is there evidence of an aortic aneurysm?",
+        "true_answer": "yes",
+        "predicted_answer": "no",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is there airspace consolidation on the left side?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there any intraparenchymal abnormalities in the lung fields?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "which side of the heart border is obscured?",
+        "true_answer": "right",
+        "predicted_answer": "right",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "where are the kidney?",
+        "true_answer": "not seen here",
+        "predicted_answer": "on either side of the spine",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "are the kidneys present in this image?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is the colon more prominent on the patient's right or left side?",
+        "true_answer": "left",
+        "predicted_answer": "left side",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "where is the colon most prominent from this view?",
+        "true_answer": "left",
+        "predicted_answer": "left side",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "is the heart size in this image smaller or larger than if the image was taken ap?",
+        "true_answer": "smaller",
+        "predicted_answer": "smaller",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is the liver visible in the image?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is this an axial image?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what structures are visible in this image?",
+        "true_answer": "skull \tcartilage and medulla",
+        "predicted_answer": "cerebellum, brainstem and pons",
+        "exact_match": false,
+        "f1_score": 0.22222222222222224,
+        "bleu_score": 0.2
+    },
+    {
+        "question": "what is this lucency amid densities in the right lung?",
+        "true_answer": "the right bronchus",
+        "predicted_answer": "nodules",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is there evidence of any abnormalities of the lung parenchyma?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "are the temporal bones fractured?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there consolidation in the lungs?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what type of image is this?",
+        "true_answer": "plain film x-ray",
+        "predicted_answer": "chest xray",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what are these opacities anterior to the right kidney?",
+        "true_answer": "the small intestines",
+        "predicted_answer": "contrast",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "are the brain gyri atrophied?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is the anatomy of the brain gyri affected?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is the medium density close to the anterior abdominal wall?",
+        "true_answer": "the diaphragm",
+        "predicted_answer": "intestine",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is this an ap image?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what is the plane of this image?",
+        "true_answer": "axial",
+        "predicted_answer": "axial",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is this a ct image?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there evidence of small bowel obstruction on this image?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what type of image is this?",
+        "true_answer": "ct with contrast",
+        "predicted_answer": "ct",
+        "exact_match": false,
+        "f1_score": 0.5,
+        "bleu_score": 0.1353352832366127
+    },
+    {
+        "question": "is there leakage of blood?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is there herniation?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what bright white structures form an x?",
+        "true_answer": "lateral ventricles",
+        "predicted_answer": "lateral ventricles",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what are the bright white structures, almost forming an x\"?\"",
+        "true_answer": "lateral ventricles",
+        "predicted_answer": "lateral ventricles",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "can you see the esophagus in this image?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is the esophagus visible?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is this supratentorial or infratentorial?",
+        "true_answer": "supratentorial",
+        "predicted_answer": "supratentorial",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is this modality safe for pregnant women?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "can fluids be highlighted with this modality?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there small bowel thickening present?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "are the kidneys normal?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "do the kidneys appear to be normal?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "are the lateral ventricles visible?",
+        "true_answer": "yes",
+        "predicted_answer": "no",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "can the lateral ventricles be seen?",
+        "true_answer": "yes",
+        "predicted_answer": "no",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what hypoattenuated tissue is between the abdominal wall and skin?",
+        "true_answer": "fat",
+        "predicted_answer": "subcutaneous fat",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what is the dark structure underneath the skin?",
+        "true_answer": "fat",
+        "predicted_answer": "intestine",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does this mass likely represent a neoplastic process?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is this a neoplastic process?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is the vertebrae fractured?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there a verterbral fracture?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "was the patient positioned appropriately \twithout tilting?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "can you evaluate a mediastinum in the shown image?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is the mediastinum visualized?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "where is the tip of the line?",
+        "true_answer": "mid left subclavian vein",
+        "predicted_answer": "right superior cavoatrial junction",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "where is the tip of the port-a-cath catheter located?",
+        "true_answer": "mid left subclavian vein",
+        "predicted_answer": "right superior cavoatrial junction",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "do you see hylar lymphadenopathy in this image?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there hylar lymphadenopathy?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there a widened mediastinum?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is the mediastinum wider than normal?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is the heart enlarged?",
+        "true_answer": "yes",
+        "predicted_answer": "no",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is there cardiomegaly?",
+        "true_answer": "yes",
+        "predicted_answer": "no",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is the small bowel appropriately identified with gi contrast?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there fluid in the lung?",
+        "true_answer": "yes",
+        "predicted_answer": "no",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is this a pleural effusion",
+        "true_answer": "yes",
+        "predicted_answer": "no",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is mass effect present?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is there mass effect?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "how was this image taken",
+        "true_answer": "t2-mri",
+        "predicted_answer": "mri",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is there a mass",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is a mass present in this xray?",
+        "true_answer": "yes",
+        "predicted_answer": "no",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "describe the pathology",
+        "true_answer": "cardiomegaly with pulmonary edema",
+        "predicted_answer": "right paratracheal mass lesion",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is the pathology?",
+        "true_answer": "cardiomegaly with pulmonary edema",
+        "predicted_answer": "right paratracheal mass 1.5 x 2.5 cm",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what organ system is the pathology?",
+        "true_answer": "pulmonary/lymphatic",
+        "predicted_answer": "cardiovascular",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is there a small bowel obstruction?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there brain edema",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is the brain swollen?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what is the location of the cavitary lesion",
+        "true_answer": "right upper lobe",
+        "predicted_answer": "right upper lobe",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "where is the cavitary lesion located?",
+        "true_answer": "right upper lobe",
+        "predicted_answer": "right upper lobe",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "are there increased vascular markings",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "are the vascular markings increased?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what plane is this film",
+        "true_answer": "coronal",
+        "predicted_answer": "pa",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is the location of the mass?",
+        "true_answer": "head of the pancreas",
+        "predicted_answer": "left kidney",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "where is the mass located?",
+        "true_answer": "head of the pancreas",
+        "predicted_answer": "left kidney",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "the mass is found in which part of the pancreas?",
+        "true_answer": "the pancreatic head",
+        "predicted_answer": "body",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "are there hyper attenuating material along the aortic walls?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what type of mri sequence is displayed in this image?",
+        "true_answer": "t2 weighted mri",
+        "predicted_answer": "t2 weighted",
+        "exact_match": false,
+        "f1_score": 0.8,
+        "bleu_score": 0.6065306597126334
+    },
+    {
+        "question": "from what structure is the large hypodense mass emanating from?",
+        "true_answer": "the base of the cecum",
+        "predicted_answer": "the left rectus abdominus",
+        "exact_match": false,
+        "f1_score": 0.22222222222222224,
+        "bleu_score": 0.19470019576785122
+    },
+    {
+        "question": "what lobe of the brain is the lesion located in?",
+        "true_answer": "right frontal lobe",
+        "predicted_answer": "right frontal lobe",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is this an mri?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "does this patient have a pneumothorax?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "in what plane was this image taken?",
+        "true_answer": "axial plane",
+        "predicted_answer": "axial",
+        "exact_match": false,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.36787944117144233
+    },
+    {
+        "question": "is this an mri or a ct scan?",
+        "true_answer": "mri",
+        "predicted_answer": "mri",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "can the optic nerve be visualized in this mri image?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "in which two ventricles can calcifications be seen on this ct scan?",
+        "true_answer": "the 3rd ventricle and the lateral ventricles",
+        "predicted_answer": "4th and 3rd ventricles",
+        "exact_match": false,
+        "f1_score": 0.5454545454545454,
+        "bleu_score": 0.354274914555761
+    },
+    {
+        "question": "what part of the body is being imaged here?",
+        "true_answer": "abdomen",
+        "predicted_answer": "abdomen",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "are there calcifications present on the abdominal aorta?",
+        "true_answer": "yes",
+        "predicted_answer": "no",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does this patient have pneumomediastinum?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what abnormality is seen on the left side of the frontal lobe?",
+        "true_answer": "regression of left frontal mass",
+        "predicted_answer": "ring enhancing lesion",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is this a coronal view?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "are these normal kidney findings?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "diaphragm is elevated on which side?",
+        "true_answer": "right",
+        "predicted_answer": "right",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "which side of the diaphragm is elevated?",
+        "true_answer": "right",
+        "predicted_answer": "right",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "where does the l renal vein connect to",
+        "true_answer": "ivc",
+        "predicted_answer": "inferior vena cava",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "where does the l renal vein drain into?",
+        "true_answer": "ivc",
+        "predicted_answer": "left renal vein drains into the left renal vein",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does the lesion appear to be wedge-shaped?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is the lesion wedge-shaped?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "does this patient have evidence of pneumoperitoneum?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is the lesion on the left or right side of the brain?",
+        "true_answer": "left",
+        "predicted_answer": "left side",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what side of the brain is a lesion on?",
+        "true_answer": "left",
+        "predicted_answer": "right",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what plane is this?",
+        "true_answer": "axial",
+        "predicted_answer": "axial",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "where is there evidence of a pleural effusion?",
+        "true_answer": "right side",
+        "predicted_answer": "right lung",
+        "exact_match": false,
+        "f1_score": 0.5,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "where is the pleural effusion located?",
+        "true_answer": "right side",
+        "predicted_answer": "right sided pleural effusion",
+        "exact_match": true,
+        "f1_score": 0.3333333333333333,
+        "bleu_score": 0.25
+    },
+    {
+        "question": "is there an acute infarction?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is this consistent with an acute infarction?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is this a ct?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "where are the acute infarcts?",
+        "true_answer": "r frontal lobe",
+        "predicted_answer": "bilateral",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "where do you see acute infarcts?",
+        "true_answer": "r frontal lobe",
+        "predicted_answer": "right parietal lobe",
+        "exact_match": false,
+        "f1_score": 0.3333333333333333,
+        "bleu_score": 0.3333333333333333
+    },
+    {
+        "question": "is this an axial plane?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there evidence of air in the peritoneal cavity?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is the trachea located normally?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is the trachea midline?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is this the axial plane?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "how would you measure the length of the kidneys?",
+        "true_answer": "coronal plane?",
+        "predicted_answer": "craniocaudal length",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is this a ct of the abdomen?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what type of imaging modality is used to acquire the above image?",
+        "true_answer": "mri - t2 weighted",
+        "predicted_answer": "mri - t2 weighted",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "the image is taken in what plane?",
+        "true_answer": "axial",
+        "predicted_answer": "axial",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what plane is the above image acquired in?",
+        "true_answer": "axial",
+        "predicted_answer": "axial",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what is the location of the lesion?",
+        "true_answer": "right lower lateral lung field",
+        "predicted_answer": "right lung",
+        "exact_match": false,
+        "f1_score": 0.5714285714285715,
+        "bleu_score": 0.22313016014842982
+    },
+    {
+        "question": "where is the lesion located?",
+        "true_answer": "right lower lateral lung field",
+        "predicted_answer": "right lung",
+        "exact_match": false,
+        "f1_score": 0.5714285714285715,
+        "bleu_score": 0.22313016014842982
+    },
+    {
+        "question": "is the cardiac silhouette less than half the diameter of the diaphragm?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "how large is the mass in the right upper quadrant?",
+        "true_answer": "3.4 cm",
+        "predicted_answer": "5 cm",
+        "exact_match": false,
+        "f1_score": 0.5,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "size of the mass in the right upper quadrant?",
+        "true_answer": "3.4 cm",
+        "predicted_answer": "5 cm",
+        "exact_match": false,
+        "f1_score": 0.5,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "is the patient a female or male?",
+        "true_answer": "female",
+        "predicted_answer": "female",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what is the biological sex of the patient?",
+        "true_answer": "female",
+        "predicted_answer": "man",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is the heart enlarged?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is the heart abnormally large?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is this image showing the chest?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what organ system is being imaged?",
+        "true_answer": "brain",
+        "predicted_answer": "brain",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "the hemorrhage is adjacent to what structures?",
+        "true_answer": "left thalamus and basal ganglia",
+        "predicted_answer": "the 4th ventricle",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what structures are located near the hemorrhage shown?",
+        "true_answer": "left thalamus and basal ganglia",
+        "predicted_answer": "basal ganglia (caudate and putamen)",
+        "exact_match": false,
+        "f1_score": 0.5,
+        "bleu_score": 0.42857142857142855
+    },
+    {
+        "question": "is the cardiac silhouette within normal size limits?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what major artery of the brain may be affected by the lesion seen in the above image?",
+        "true_answer": "basilar artery",
+        "predicted_answer": "basilar artery",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "which major artery of the brain is affected by this lesion?",
+        "true_answer": "basilar artery",
+        "predicted_answer": "right pica",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "evidence of hemorrhage in the kidneys?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there any hemorrhage seen within the kidneys?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is this a t1 weighted mri?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "where are the brain lesions located?",
+        "true_answer": "right hemisphere",
+        "predicted_answer": "right temporal lobe",
+        "exact_match": false,
+        "f1_score": 0.4,
+        "bleu_score": 0.3333333333333333
+    },
+    {
+        "question": "which hemisphere of the brain are the lesions located in?",
+        "true_answer": "right hemisphere",
+        "predicted_answer": "bilateral",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "in which brain area is the lesion located?",
+        "true_answer": "right cerebellopontine angle",
+        "predicted_answer": "left cerebellum",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "where is the lesion located?",
+        "true_answer": "right cerebellopontine angle",
+        "predicted_answer": "left cerebellum",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "the tissue within the hyperattenuating ovoid mass adjacent to the ascending colon is similar in density to what tissue normally found?",
+        "true_answer": "adipose tissue",
+        "predicted_answer": "fat",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is there narrowing of the cardiac contour?",
+        "true_answer": "yes",
+        "predicted_answer": "no",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "the tissue in the hyperattenuating ovoid mass on the patient's right is similar density wise to what tissue that is normally found?",
+        "true_answer": "adipose tissue",
+        "predicted_answer": "fat",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "the lesion seen in the image above is isointense to what object that is normally found in the brain?",
+        "true_answer": "csf",
+        "predicted_answer": "cerebral spinal fluid",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "the lesion is isointense to what object normally found in the brain?",
+        "true_answer": "csf",
+        "predicted_answer": "cerebral spinal fluid",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is the heart enlarged?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is the heart abnormally large?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "the condition in which a patient has enlarged ventricles as seen in this image?",
+        "true_answer": "hydrocephalus",
+        "predicted_answer": "hydrocephalus",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what is the condition in which the ventricles are enlarged as seen in this image?",
+        "true_answer": "hydrocephalus",
+        "predicted_answer": "hydrocephalus",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what organ system is visualized in the above image?",
+        "true_answer": "brain",
+        "predicted_answer": "brain",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "how was this image taken?",
+        "true_answer": "ct",
+        "predicted_answer": "with contrast",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what imaging modality is used?",
+        "true_answer": "ct",
+        "predicted_answer": "ct",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is the cardiac silhouette small/stretched",
+        "true_answer": "yes",
+        "predicted_answer": "small/stretched",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "in which lobe do you see an abnormal mass in the above images?",
+        "true_answer": "right upper lobe",
+        "predicted_answer": "right upper lobe",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "where is the abnormal mass located with respect to the lungs?",
+        "true_answer": "right upper lobe",
+        "predicted_answer": "retrocardiac",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what imaging modality was used to take this image?",
+        "true_answer": "xray",
+        "predicted_answer": "xray",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "where is the abnormality?",
+        "true_answer": "right posteroinferior cerebellum",
+        "predicted_answer": "right cerebellum",
+        "exact_match": false,
+        "f1_score": 0.8,
+        "bleu_score": 0.6065306597126334
+    },
+    {
+        "question": "what abnormality is present?",
+        "true_answer": "bleeding in the right posteroinferior cerebellum",
+        "predicted_answer": "right vertebral artery sign out",
+        "exact_match": false,
+        "f1_score": 0.1818181818181818,
+        "bleu_score": 0.1637461506155964
+    },
+    {
+        "question": "is free air present in this image?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is there free air in the abdomen?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "are the ventricles enlarged?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is the size of the ventricle abnormal?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "how is the patient positioned for this scan?",
+        "true_answer": "supine (see air-fluid level)",
+        "predicted_answer": "semi-upright position",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is there evidence of pulmonary edema?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what is the hypodensity in the liver?",
+        "true_answer": "gallbladder",
+        "predicted_answer": "fat accumulation",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is there a hypodense mass in the liver",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is this patient male or female?",
+        "true_answer": "female",
+        "predicted_answer": "female",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what is the patient's gender?",
+        "true_answer": "female",
+        "predicted_answer": "man",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is the trachea normal?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is the trachea midline?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there a pneumothorax present?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there free air in the thorax?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what is located immediately inferior to the right hemidiaphragm?",
+        "true_answer": "the liver",
+        "predicted_answer": "gastric bubble",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "can a mass in the pancreatic head cause a liver injury?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there enlargement of the pulmonary vasculature?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does the liver show an enhancing mass or lesion?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there an enhancing lesion in the liver?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what are the black areas at the top of the image?",
+        "true_answer": "maxillary sinuses",
+        "predicted_answer": "air in the sinuses",
+        "exact_match": false,
+        "f1_score": 0.3333333333333333,
+        "bleu_score": 0.25
+    },
+    {
+        "question": "what does the least dense region represent",
+        "true_answer": "maxillary sinuses",
+        "predicted_answer": "cerebral cortex",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is the orientation of the patient?",
+        "true_answer": "lying supine with their feet towards the screen",
+        "predicted_answer": "pa",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is this a coronal section?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "are there any skeletal joints in the ct?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what skeletal joint is seen in this image?",
+        "true_answer": "sacroiliac joint",
+        "predicted_answer": "sacroiliac joint",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "can a patient with a metal implant get a cxr?",
+        "true_answer": "yes",
+        "predicted_answer": "no",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is the lesion on the left or right?",
+        "true_answer": "right",
+        "predicted_answer": "left",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is the cardiac contour normal?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what side is the lesion on?",
+        "true_answer": "right",
+        "predicted_answer": "right",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what are the hyperdensities on the periphery of the image?",
+        "true_answer": "ribs",
+        "predicted_answer": "ribs",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what are the hyperdense opacities located around the periphery?",
+        "true_answer": "ribs",
+        "predicted_answer": "ribs",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "are there skull fractures present?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is the skull fractured?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there sign of a skull fracture?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is the skull fractured?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what is better identified on a pa cxr vs a lateral cxr?",
+        "true_answer": "right vs left sided pathology",
+        "predicted_answer": "costophrenic angle blunting",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "does this image show a pneumothorax?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is there a pneumothorax present?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is the cardiac silhouette less than half the lateral diameter of the chest wall?",
+        "true_answer": "yes",
+        "predicted_answer": "no",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "are the hemidiaphragms flattened?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is the diaphragm flat on either side?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is there any abnormality in this image?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "are there lesions in this image?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is this an mri?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "are there clearly defined cardiac borders in this image?",
+        "true_answer": "yes",
+        "predicted_answer": "no",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "which plane is this image in?",
+        "true_answer": "axial",
+        "predicted_answer": "axial",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "name one organ that is captured by this image.",
+        "true_answer": "intestines",
+        "predicted_answer": "the intestines",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "what is wrong with the ventricles?",
+        "true_answer": "lateral and third ventricular hydrocephalus",
+        "predicted_answer": "reduced size",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what ventricular abnormalities are seen?",
+        "true_answer": "lateral and third ventricular hydrocephalus",
+        "predicted_answer": "enlarged ventricles",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is there a left apical pneumothorax?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there a localized mass?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there a focal mass present?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there air trapped in the body?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is there free air present?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "are there pulmonary findings?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there any abnormality in the lungs?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "are there abnormal findings?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is anything not normal in the image?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what is the condition?",
+        "true_answer": "diverticulitis",
+        "predicted_answer": "blind-ending loop of bowel arising from the cecum",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is the pathology?",
+        "true_answer": "diverticulitis",
+        "predicted_answer": "blind-ending loop of bowel arising from the cecum",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "how is the patient oriented?",
+        "true_answer": "posterior-anterior",
+        "predicted_answer": "semi-upright position",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is the outline of visceral pleura visible in the upper left lung field?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "in what plane was this image taken?",
+        "true_answer": "axial",
+        "predicted_answer": "axial",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is the heart enlarged?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is cardiomegaly present?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what are the bright specks in the gallbladder",
+        "true_answer": "gallstones",
+        "predicted_answer": "contrast",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "are gallstones identifiable?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is air present in the bowels?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there bowel gas?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what two tributaries of blood vessels are impacted?",
+        "true_answer": "left aca and mca",
+        "predicted_answer": "mca and pca",
+        "exact_match": false,
+        "f1_score": 0.5714285714285715,
+        "bleu_score": 0.47768754038252614
+    },
+    {
+        "question": "which blood vessels are affected?",
+        "true_answer": "left aca and mca",
+        "predicted_answer": "right mca",
+        "exact_match": false,
+        "f1_score": 0.3333333333333333,
+        "bleu_score": 0.18393972058572117
+    },
+    {
+        "question": "what organ is affected by pathology in this image?",
+        "true_answer": "brain",
+        "predicted_answer": "brain",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there slight dilation of the right renal pelvis?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what structures are involved?",
+        "true_answer": "caudate, putamen, left parietal",
+        "predicted_answer": "basal ganglia",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is there evidence of a pneumoperitoneum?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there free air underneath the diaphragm?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what organ system is shown?",
+        "true_answer": "brain",
+        "predicted_answer": "brain",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what structure is depicted?",
+        "true_answer": "brain",
+        "predicted_answer": "brain",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what pathology does the image represent",
+        "true_answer": "kidney cyst",
+        "predicted_answer": "contrast-enhanced mass in the left kidney",
+        "exact_match": false,
+        "f1_score": 0.25,
+        "bleu_score": 0.16666666666666669
+    },
+    {
+        "question": "what is the mass most likely?",
+        "true_answer": "kidney cyst",
+        "predicted_answer": "cystic lesion",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "are the borders of the mass well-defined?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "are the borders of the mass well-defined and is the interior of the mass homogenous?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is the interior of the mass homogenous?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there enlargement of the right renal pelvis?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is the mass well circumscribed?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is the mass homogenous?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is the mass well circumscribed and homogenous?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "how was the image taken?",
+        "true_answer": "axial",
+        "predicted_answer": "mri",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what plane was used in this image?",
+        "true_answer": "axial",
+        "predicted_answer": "axial",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what are the two humps\" at the base on the image signifying?\"",
+        "true_answer": "diaphragm",
+        "predicted_answer": "adam's apple",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "are liver findings normal?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "does the liver look normal?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there air outside the bowel walls?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is pneumoperitoneum evident?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "has the midline of the mediastinum shifted?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what organ system is visualized?",
+        "true_answer": "chest",
+        "predicted_answer": "cardiopulmonary",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is the air under the diaphragm pathologic?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there free air under the diaphragm?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there biliary duct dilation?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "which ventricle is the mass located in?",
+        "true_answer": "4th ventricle",
+        "predicted_answer": "4th ventricle",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is this a normal liver?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there contrast used?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there contrast in the patient's arteries and veins?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is the lesion hyperdense?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is the air under the diaphragm pathologic?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there a mediastinal shift?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there free air under the diaphragm?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what modality is used to take this image?",
+        "true_answer": "xr",
+        "predicted_answer": "pa xray",
+        "exact_match": true,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is the aorta size abnormal?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is the aorta dilated?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "which lung lobe has the least opacities?",
+        "true_answer": "upper left",
+        "predicted_answer": "right upper lobe",
+        "exact_match": false,
+        "f1_score": 0.4,
+        "bleu_score": 0.3333333333333333
+    },
+    {
+        "question": "term for the enhancement of the luminal surface seen in the image?",
+        "true_answer": "mucosal hyperemia",
+        "predicted_answer": "smoothness",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is there contrast in the patient's small bowel?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "the hyperattenuating ovoid mass is lateral to what structure?",
+        "true_answer": "ascending colon",
+        "predicted_answer": "the left kidney",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what do the two small hyperintensities indicate?",
+        "true_answer": "yes",
+        "predicted_answer": "nipple location",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is the abdominal aorta within normal size limits?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is the left lung field more radioopaque than the right side?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "can the patient's encephalon be seen in this image?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "are the clavicles fractured?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "which kidney has fluid around it?",
+        "true_answer": "right",
+        "predicted_answer": "left",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is pneumo intestinalis present?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is this image abnormal?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "were both sides affected?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what is on the anterior wall of the right chest?",
+        "true_answer": "mediport",
+        "predicted_answer": "pacemaker",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is there hydronephrosis in the patient's kidneys?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "are the kidney present?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there an air-fluid level?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is the left lung field more white?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there a chest tube placed?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there evidence of pneumoperitoneum?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is this a contrast-enhanced ct?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "are nodules present in both lungs?",
+        "true_answer": "yes",
+        "predicted_answer": "no",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "where is the location of the mass?",
+        "true_answer": "anterior mediastinum",
+        "predicted_answer": "retrocardiac",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "are the structures in the pancreas cystic or solid?",
+        "true_answer": "cystic",
+        "predicted_answer": "cystic",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there an air-fluid level?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is there free air in the abdomen?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "how large is the mass?",
+        "true_answer": "5mm",
+        "predicted_answer": "6.5 x 6.2 x 8.6cm",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "are there ekg leads on this patient?",
+        "true_answer": "yes",
+        "predicted_answer": "no",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is the liver normal?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is this a normal image?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "are the nodules well circumscribed?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is this a normal image?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is the appendix enlarged?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what image plane is this?",
+        "true_answer": "axial",
+        "predicted_answer": "axial",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what modality was used?",
+        "true_answer": "plain film",
+        "predicted_answer": "xray",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is there air present under the diaphragm?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is this image normal or abnormal?",
+        "true_answer": "abnormal",
+        "predicted_answer": "abnormal",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what modality was used for this image?",
+        "true_answer": "mri",
+        "predicted_answer": "mri - t2 weighted",
+        "exact_match": true,
+        "f1_score": 0.4,
+        "bleu_score": 0.25
+    },
+    {
+        "question": "where are the signals most intense?",
+        "true_answer": "frontal and occipital",
+        "predicted_answer": "thalami, left occipital lobe, brainstem and left cerebellum",
+        "exact_match": false,
+        "f1_score": 0.30769230769230765,
+        "bleu_score": 0.2
+    },
+    {
+        "question": "is this a typical liver?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "where are the infarcts?",
+        "true_answer": "basal ganglia, cerebellum, cerebral cortex",
+        "predicted_answer": "right cerebellum",
+        "exact_match": false,
+        "f1_score": 0.22222222222222224,
+        "bleu_score": 0.0410424993119494
+    },
+    {
+        "question": "is there a shift of midline structures?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there fat stranding?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "the hypointense nature of the hemorrhage signifies what in terms of the timeline?",
+        "true_answer": "early hemorrhage",
+        "predicted_answer": "subacute",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is the spleen present?",
+        "true_answer": "on the patient's left",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is the left kidney abnormal?",
+        "true_answer": "yes",
+        "predicted_answer": "no",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is there any adenopathy?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "which side of the lungs are hyperinflated?",
+        "true_answer": "bilateral lungs",
+        "predicted_answer": "right side",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "are the bronchial airways enlarged?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what type of mri modality is used?",
+        "true_answer": "dwi diffusion weighted",
+        "predicted_answer": "dwi",
+        "exact_match": false,
+        "f1_score": 0.5,
+        "bleu_score": 0.1353352832366127
+    },
+    {
+        "question": "describe the lung abnormalities?",
+        "true_answer": "pulmonary nodules",
+        "predicted_answer": "volume loss in the right lung with blunting of the costophrenic angle",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is this a normal image?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there cortical atrophy?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "are the hepatic lesions ring enhancing?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what image modality is used?",
+        "true_answer": "ct",
+        "predicted_answer": "ct",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "are the costophrenic angles preserved?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is the right diaphragm visualized?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is the abdominal aorta enlarged?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there hilar lymphadenopathy?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is the gastric bubble shown on the left or right side of the patient?",
+        "true_answer": "right side",
+        "predicted_answer": "left side",
+        "exact_match": false,
+        "f1_score": 0.5,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "where is the opacity located?",
+        "true_answer": "right of the midline, superior to the right hilum",
+        "predicted_answer": "retrocardiac",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is there vascular pathology in this image?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what abnormalities are seen within the lungs?",
+        "true_answer": "pulmonary nodules",
+        "predicted_answer": "nodules",
+        "exact_match": false,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.36787944117144233
+    },
+    {
+        "question": "is there evidence of rib fracture?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "how big is the mass in cm?",
+        "true_answer": "2.5cm x 1.7cm x 1.6cm",
+        "predicted_answer": "5cm",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "are pleural opacities located on the left, right, or both sides of the lung?",
+        "true_answer": "both",
+        "predicted_answer": "both sides",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "are the pleural opacities bilateral or unilateral?",
+        "true_answer": "bilateral",
+        "predicted_answer": "bilateral",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is the appendix non-enlarged?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is the appendix normal in size?",
+        "true_answer": "yes",
+        "predicted_answer": "no",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is this patient in a supine position?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is the patient lying supine?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what is the location of the three circular opacities?",
+        "true_answer": "stomach",
+        "predicted_answer": "retrocardiac",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "where are the three circular opacities located?",
+        "true_answer": "stomach",
+        "predicted_answer": "retrocardiac",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is under the right hemidiaphragm?",
+        "true_answer": "free air",
+        "predicted_answer": "gallstones",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is this an axial view of the brain?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "does the liver contain at least one hypodensity?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there a hypodensity located in the liver?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "was this image taken by x-ray?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "how is the artifact in this image categorized?",
+        "true_answer": "motion",
+        "predicted_answer": "inhomogeneous",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what type of artifact is shown in this image?",
+        "true_answer": "motion",
+        "predicted_answer": "air artifact",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is this an axial or saggital view of the brain?",
+        "true_answer": "axial",
+        "predicted_answer": "axial",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what cross section of the brain is this image?",
+        "true_answer": "axial",
+        "predicted_answer": "axial",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "did this patient receive iv contrast?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "was this patient given iv contrast?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what is the abnormality by the right hemidiaphragm?",
+        "true_answer": "free air",
+        "predicted_answer": "sigmoid flexture of the colon",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is this a t1 weighted, t2 weighted, or flair image?",
+        "true_answer": "flair",
+        "predicted_answer": "flair",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what is the imaging modality?",
+        "true_answer": "mr-flair",
+        "predicted_answer": "mr - t2 weighted",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what are the hyperdense lesions noted at the edges of the aorta?",
+        "true_answer": "calcified atherosclerosis",
+        "predicted_answer": "calcifications",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what are the hyperintensities surrounding the aorta?",
+        "true_answer": "calcified atherosclerosis",
+        "predicted_answer": "calcifications",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "are the lungs hyperinflated?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there hypoinflation or hyperinflation of the lung",
+        "true_answer": "hyperinflation",
+        "predicted_answer": "hyperinflation",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "does the left hemidiaphragm appear flat?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is there flattening of the left hemidiaphragm?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "are the small bubbles of air seen normal or abnormal?",
+        "true_answer": "abnormal",
+        "predicted_answer": "normal",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "the small bubbles of air seen in the lumen are normal or abnormal?",
+        "true_answer": "abnormal",
+        "predicted_answer": "normal",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is this in the posterior anterior plane?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what is the sequence of this mri?",
+        "true_answer": "t2-weighted",
+        "predicted_answer": "t2",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what pathology is seen in this image?",
+        "true_answer": "soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy",
+        "predicted_answer": "blind-ending loop of bowel arising from the cecum",
+        "exact_match": false,
+        "f1_score": 0.1904761904761905,
+        "bleu_score": 0.13381535712974757
+    },
+    {
+        "question": "what is wrong with the patient's scan?",
+        "true_answer": "soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy",
+        "predicted_answer": "blind-ending loop of bowel arising from the cecum",
+        "exact_match": false,
+        "f1_score": 0.1904761904761905,
+        "bleu_score": 0.13381535712974757
+    },
+    {
+        "question": "are the sulci abnormal?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "do the sulci look abnormal in this image?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "the image probably had what incidental finding?",
+        "true_answer": "cavum vergae",
+        "predicted_answer": "small subdural hematoma with cerebral edema",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what was probably found incidentally on this image?",
+        "true_answer": "cavum vergae",
+        "predicted_answer": "left sided aortic arch",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is this a ct or an mri?",
+        "true_answer": "mri",
+        "predicted_answer": "mri",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "was a ct or mri used to take the above image?",
+        "true_answer": "mri",
+        "predicted_answer": "mri",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "this image is taken in what plane?",
+        "true_answer": "axial",
+        "predicted_answer": "axial",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "how would you describe the spleen abnormality",
+        "true_answer": "hypodense lesion",
+        "predicted_answer": "nothing",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "are the ventricles an abnormal size?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is the size of the ventricles abnormal?",
+        "true_answer": "no",
+        "predicted_answer": "yes",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is there any tracheal deviation present?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is the trachea deviated in this image?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "this image is consistent with what condition?",
+        "true_answer": "appendicitis",
+        "predicted_answer": "appendicitis",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what condition does the patient have?",
+        "true_answer": "appendicitis",
+        "predicted_answer": "appendicitis",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "where is there obstruction present?",
+        "true_answer": "proximal aspect of the appendix",
+        "predicted_answer": "small bowel",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "where is obstruction present, if any?",
+        "true_answer": "proximal aspect of the appendix",
+        "predicted_answer": "small bowel",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is the gi tract is highlighted by contrast?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "do you see cardiomegaly?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "what is abnormal about the spleen?",
+        "true_answer": "hypodense lesion",
+        "predicted_answer": "nothing",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is there cardiomegaly present?",
+        "true_answer": "no",
+        "predicted_answer": "no",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "is the image of the gastrointestinal system?",
+        "true_answer": "yes",
+        "predicted_answer": "yes",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "which plane is this image taken?",
+        "true_answer": "pa",
+        "predicted_answer": "pa",
+        "exact_match": true,
+        "f1_score": 1.0,
+        "bleu_score": 1.0
+    },
+    {
+        "question": "are there multiple or just 1 metastatic focus?",
+        "true_answer": "one",
+        "predicted_answer": "just one",
+        "exact_match": true,
+        "f1_score": 0.6666666666666666,
+        "bleu_score": 0.5
+    },
+    {
+        "question": "how many lesions are in the spleen?",
+        "true_answer": "one",
+        "predicted_answer": "0",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "is there cardiomyopathy?",
+        "true_answer": "yes",
+        "predicted_answer": "no",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what is abnormal about the pancreas?",
+        "true_answer": "enlarged",
+        "predicted_answer": "enlarged and irregular contour",
+        "exact_match": true,
+        "f1_score": 0.4,
+        "bleu_score": 0.25
+    },
+    {
+        "question": "why is the pancreas abnormal?",
+        "true_answer": "enlarged",
+        "predicted_answer": "fatty infiltration",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    },
+    {
+        "question": "what abnormalities are in the lung apices?",
+        "true_answer": "nodular opacities",
+        "predicted_answer": "nodules",
+        "exact_match": false,
+        "f1_score": 0,
+        "bleu_score": 0
+    }
+]

@@ -5,13 +5,13 @@ import os
 import random
 from datasets import load_dataset
 from transformers import TrainingArguments, Trainer
+from PIL import Image
 
 DEVICE = "cuda:0"
 
-# Set the environment variables
 os.environ['HF_HOME'] = "/home/bpm_azure_cs231n_key/huggingface_cache"
 os.environ['TRANSFORMERS_CACHE'] = "/home/bpm_azure_cs231n_key/huggingface_cache"
-os.environ["HF_TOKEN"] = "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"
+os.environ["HF_TOKEN"] = "********"
 hf_token = os.environ.get('HF_TOKEN')
 
 processor = AutoProcessor.from_pretrained(
@@ -42,16 +42,40 @@ model = Idefics2ForConditionalGeneration.from_pretrained(
 model.add_adapter(lora_config)
 model.enable_adapters()
 
-# Load the MedIR/roco dataset for SSL pre-training
-dataset = load_dataset("MedIR/roco")
+# Load the roco dataset for SSL pre-training
+dataset = load_dataset("photonmz/roco-instruct-65k")
+print(dataset)
+print(dataset["train"]["image"][:5])  
 
-total_examples = len(dataset["test"])
-eval_start_index = total_examples - 1000
+train_dataset = dataset["train"].select(range(200))
+eval_dataset = dataset["test"].select(range(200))
+print(dataset)
 
-train_dataset = dataset["test"].select(range(7000)) #1500
-eval_dataset = dataset["test"].select(range(eval_start_index, total_examples))
+image_dir = "/home/bpm_azure_cs231n_key/huggingface_cache/datasets/photonmz___roco-instruct-65k/default/0.0.0/9362db359a81605f0597e0f7c4b6ad8a33170037"
 
-# DataCollator
+from torch.utils.data import IterableDataset
+
+class CustomIterableDataset(IterableDataset):
+    def __init__(self, dataset, image_dir):
+        self.dataset = dataset
+        self.image_dir = image_dir
+
+    def __iter__(self):
+        for example in self.dataset:
+            image_filename = example["image"]
+            image_path = os.path.join(self.image_dir, image_filename)
+            try:
+                image = Image.open(image_path).convert("RGB")
+            except FileNotFoundError:
+                # Skip examples with missing image files
+                continue
+            yield example, image
+
+train_dataset = CustomIterableDataset(train_dataset, image_dir)
+eval_dataset = CustomIterableDataset(eval_dataset, image_dir)
+
+
+
 class MyDataCollator:
     def __init__(self, processor):
         self.processor = processor
@@ -62,21 +86,36 @@ class MyDataCollator:
     def __call__(self, examples):
         texts = []
         images = []
-        for example in examples:
-            image = example["image"]
-            caption = example["caption"]
-            messages = [
-                {
-                    "role": "user",
-                    "content": [
-                        {"type": "image"},
-                        {"type": "text", "text": caption}
-                    ]
-                }
-            ]
-            text = processor.apply_chat_template(messages, add_generation_prompt=False)
-            texts.append(text.strip())
-            images.append([image])
+        for example, image in examples:
+            conversations = example["conversations"]
+            question = None
+            answer = None
+            for conv in conversations:
+                if conv["from"] == "human":
+                    question = conv["value"].split("\n")[0]
+                elif conv["from"] == "gpt":
+                    answer = conv["value"]
+                    break
+            
+            if question and answer:
+                messages = [
+                    {
+                        "role": "user",
+                        "content": [
+                            {"type": "image"},
+                            {"type": "text", "text": question}
+                        ]
+                    },
+                    {
+                        "role": "assistant",
+                        "content": [
+                            {"type": "text", "text": answer}
+                        ]
+                    }
+                ]
+                text = processor.apply_chat_template(messages, add_generation_prompt=False)
+                texts.append(text.strip())
+                images.append([image])
 
         batch = processor(text=texts, images=images, return_tensors="pt", padding=True)
 
@@ -87,8 +126,10 @@ class MyDataCollator:
         return batch
 
 
-# Collate examples for SSL pretraining 
 data_collator = MyDataCollator(processor)
+
+
+
 
 output_dir = "/home/bpm_azure_cs231n_key/idefics_pretrain_outputs"
 os.makedirs(output_dir, exist_ok=True)
@@ -99,7 +140,7 @@ training_args = TrainingArguments(
     per_device_eval_batch_size=8,
     gradient_accumulation_steps=8,
     warmup_steps=50,
-    learning_rate = 1e-5, #lower learning rate for SSL, 1e-4 for ft
+    learning_rate = 1e-5, #lower learning rate for Stage 1, 1e-4 for ft
     weight_decay=0.01,
     logging_steps=25,
     output_dir = "/home/bpm_azure_cs231n_key/idefics_pretrain_outputs",
@@ -108,7 +149,8 @@ training_args = TrainingArguments(
     save_total_limit = 1,
     fp16 = True,
     remove_unused_columns=False,
-    report_to="none"
+    report_to="none",
+    max_steps=100
 )
 trainer = Trainer(
     model = model,
@@ -121,14 +163,13 @@ trainer = Trainer(
 trainer.train()
 
 # Save the SSL pretrained model
-model.save_pretrained("idefics2-8B-pretrained-full-train")
+model.save_pretrained("idefics2-8B-pretrained-ROCO-instruct-train")
 
 # Load the VQA-RAD dataset for stage 2 FT
 dataset = load_dataset("flaviagiammarino/vqa-rad")
-train_dataset = dataset["train"] #.select(range(1000)) # was 1000, testing stage 2 FT on 100, will use 80/20 or so for final
-eval_dataset = dataset["test"] #.select(range(200))
+train_dataset = dataset["train"].select(range(200)) # was 1000, testing stage 2 FT on 100, will use 80/20 or so for final
+eval_dataset = dataset["test"].select(range(200))
 
-# DataCollator
 class MyDataCollator2:
     def __init__(self, processor):
         self.processor = processor
@@ -171,7 +212,6 @@ class MyDataCollator2:
 
         return batch
 
-# DataCollator
 data_collator2 = MyDataCollator2(processor)
 
 output_dir = "/home/bpm_azure_cs231n_key/idefics_finetune_outputs"
@@ -205,9 +245,8 @@ trainer2 = Trainer(
 trainer2.train()
 
 # Save the stage 2 fine-tuned model
-model.save_pretrained("idefics2-8B-finetuned-stage2-full-train")
+model.save_pretrained("idefics2-8B-finetuned-stage2-ROCO-instruct-train")
 
-## EVAL
 example = eval_dataset[5]
 example
 example["image"]
